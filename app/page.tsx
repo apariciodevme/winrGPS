@@ -63,7 +63,14 @@ export default function Home() {
   }, [filteredWines, searchQuery]);
 
   const formatType = (type: string) => {
-    return type.charAt(0).toUpperCase() + type.slice(1);
+    switch (type) {
+      case 'beer_and_cider_draft': return 'Draft Beer & Cider';
+      case 'beer_and_cider_bottle': return 'Bottled Beer & Cider';
+      case 'non_alcoholic_beverages': return 'Non-Alcoholic Beverages';
+      case 'non_alcoholic_soda_and_water': return 'Soda & Water';
+      case 'dessert_wine': return 'Dessert Wine';
+      default: return type.charAt(0).toUpperCase() + type.slice(1);
+    }
   };
 
   return (

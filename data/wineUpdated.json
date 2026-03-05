@@ -1,0 +1,1959 @@
+{
+    "wine_menu": {
+        "by_the_glass": {
+            "sparkling": [
+                {
+                    "name": "Domaine Jean Collet & Fils Cremant de Bourgogne Brut",
+                    "vintage": "2022",
+                    "price_nok": 220,
+                    "description": "Crisp, dry, and elegant. High acidity with notes of green apple, citrus, and subtle brioche. Light body.",
+                    "grape": "Chardonnay, Pinot Noir",
+                    "region": "Bourgogne"
+                },
+                {
+                    "name": "Champagne Pierre Peters Blanc de Blancs",
+                    "vintage": "NV",
+                    "price_nok": 265,
+                    "description": "100% Chardonnay. Razor-sharp acidity, bone dry, light body. Crisp minerality with lemon zest and green apple.",
+                    "grape": "Chardonnay",
+                    "region": "Champagne (Côte des Blancs)"
+                },
+                {
+                    "name": "Stødig Rosésider Eple&Bringebær fra Lien gård (alkoholfri)",
+                    "vintage": "NV",
+                    "price_nok": 109,
+                    "description": "Non-alcoholic cider. Fresh, fruit-forward with vibrant raspberry and apple notes. Crisp acidity, off-dry.",
+                    "grape": "Apple & Raspberry",
+                    "region": "Norway"
+                }
+            ],
+            "white": [
+                {
+                    "name": "Acham-Magin Riesling Trocken",
+                    "vintage": "2024",
+                    "price_nok": 155,
+                    "description": "Dry Riesling. High bracing acidity, light body. Crisp and aromatic with notes of lime, green apple, and slate.",
+                    "grape": "Riesling",
+                    "region": "Pfalz"
+                },
+                {
+                    "name": "Domaine E. Guigal Côtes du Rhone Blanc",
+                    "vintage": "2024",
+                    "price_nok": 185,
+                    "description": "Côtes du Rhône Blanc. Low acidity, dry, full body. Rich and aromatic with apricot, honeysuckle, and melon."
+                },
+                {
+                    "name": "Rafael Palacios Godello",
+                    "vintage": "2024",
+                    "price_nok": 220,
+                    "description": "Godello. Medium-high acidity, dry, medium-full body. Waxy texture with lemon zest, peach, and crushed rocks.",
+                    "grape": "Godello",
+                    "region": "Valdeorras"
+                },
+                {
+                    "name": "Francois Carillon Cap au Sud Chardonnay",
+                    "vintage": "2022",
+                    "price_nok": 225,
+                    "description": "Chardonnay. Medium-high acidity, dry, medium-full body. Elegant oak integration, hazelnut, and citrus.",
+                    "grape": "Chardonnay",
+                    "region": "Puligny-Montrachet"
+                },
+                {
+                    "name": "Chavy Chouet Aligoté",
+                    "vintage": "2024",
+                    "price_nok": 220,
+                    "description": "High zesty acidity, light body, bone dry. Crisp green apple, lemon, and a saline finish.",
+                    "grape": "Aligoté"
+                },
+                {
+                    "name": "Dominique Lafon Bourgogne Blanc",
+                    "vintage": "2024",
+                    "price_nok": 330,
+                    "description": "Bourgogne Blanc. Medium-high acidity, dry, medium body. Subtle oak nuance, vibrant orchard fruit, and tension.",
+                    "grape": "Chardonnay",
+                    "region": "Meursault"
+                }
+            ],
+            "red": [
+                {
+                    "name": "Château Camino Salva",
+                    "vintage": "2019",
+                    "price_nok": 175,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                },
+                {
+                    "name": "E. Pira di Chiara Boschis Dolcetto Alba",
+                    "vintage": "2022",
+                    "price_nok": 210,
+                    "description": "Dolcetto/Barolo. High acidity, dry, full body. Powerful tannins (Barolo) or juicy black fruit (Dolcetto).",
+                    "grape": "Dolcetto",
+                    "region": "Piemonte (Alba)"
+                },
+                {
+                    "name": "Reynaud Crozes-Hermitage Beaumont",
+                    "vintage": "2024",
+                    "price_nok": 210,
+                    "description": "Crozes-Hermitage (Syrah). Medium-high acidity, dry, medium body. Moderate tannins, notes of blackberry, olive, and black pepper.",
+                    "grape": "Syrah"
+                },
+                {
+                    "name": "Cavalotto Langhe Nebbiolo",
+                    "vintage": "2020",
+                    "price_nok": 265,
+                    "description": "Nebbiolo. High acidity, dry, medium-full body. Grippy, formidable tannins with notes of tar, roses, and dried cherry.",
+                    "grape": "Nebbiolo",
+                    "region": "Piemonte"
+                },
+                {
+                    "name": "Glantenay Bourgogne Côte d'Or",
+                    "vintage": "2022",
+                    "price_nok": 275,
+                    "description": "Pinot Noir. Medium-high acidity, dry, medium body. Fine tannins with notes of red cherry, raspberry, and earth.",
+                    "grape": "Pinot Noir",
+                    "region": "Bourgogne"
+                }
+            ],
+            "sweet": [
+                {
+                    "name": "Selbach Oster Zeltinger Auslese",
+                    "vintage": "2018",
+                    "price_nok": 250,
+                    "description": "Riesling Auslese. High acidity, sweet, medium body. Lush and honeyed with notes of apricot, mango, and offset by vibrant acidity.",
+                    "grape": "Riesling",
+                    "region": "Mosel"
+                }
+            ]
+        },
+        "beer_and_cider": {
+            "draft": [
+                {
+                    "name": "Heineken",
+                    "volume": "0,4l",
+                    "price_nok": 129,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                },
+                {
+                    "name": "Birra Moretti",
+                    "price_nok": 139,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                },
+                {
+                    "name": "Nøgne Ø Blanc",
+                    "volume": "0,4l",
+                    "price_nok": 139,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                },
+                {
+                    "name": "Nøgne Ø IPA",
+                    "price_nok": 149,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                },
+                {
+                    "name": "Hansa Lite (glutenfri)",
+                    "price_nok": 149,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                }
+            ],
+            "bottle": [
+                {
+                    "name": "Sol",
+                    "volume": "33cl",
+                    "price_nok": 109,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                },
+                {
+                    "name": "Weihenstephaner",
+                    "volume": "50cl",
+                    "price_nok": 159,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                }
+            ]
+        },
+        "non_alcoholic": {
+            "beverages": [
+                {
+                    "name": "Heineken NullNull",
+                    "volume": "33cl",
+                    "price_nok": 89,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                },
+                {
+                    "name": "Weihenstephaner 0%",
+                    "volume": "50cl",
+                    "price_nok": 109,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                },
+                {
+                    "name": "Nøgne Ø Stripped IPA 0%",
+                    "price_nok": 95,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                },
+                {
+                    "name": "Empress Kambucha Ginger & Gojiberry",
+                    "price_nok": 109,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                },
+                {
+                    "name": "Empress Moonbrew Winealts",
+                    "price_nok": 109,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                },
+                {
+                    "name": "Empress Venus Rose Winealts",
+                    "price_nok": 109,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                },
+                {
+                    "name": "Stødig Rosésider Eple&Bringebær fra Lien gård",
+                    "price_nok": 109,
+                    "description": "Non-alcoholic cider. Fresh, fruit-forward with vibrant raspberry and apple notes. Crisp acidity, off-dry."
+                },
+                {
+                    "name": "Blaane Eplemost Gravenstein",
+                    "price_nok": 69,
+                    "bottle_price_nok": 299,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                }
+            ],
+            "soda_and_water": [
+                {
+                    "name": "Coca Cola",
+                    "price_nok": 69,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                },
+                {
+                    "name": "Coca Cola Uten Sukker",
+                    "price_nok": 69,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                },
+                {
+                    "name": "Sprite",
+                    "price_nok": 69,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                },
+                {
+                    "name": "Fanta",
+                    "price_nok": 69,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                },
+                {
+                    "name": "San P Aranciata",
+                    "price_nok": 69,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                },
+                {
+                    "name": "San P Aranciata Rosso",
+                    "price_nok": 69,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                },
+                {
+                    "name": "San P Limonata",
+                    "price_nok": 69,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                },
+                {
+                    "name": "Lykki Økologisk Rabarbara",
+                    "price_nok": 79,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                },
+                {
+                    "name": "Lykki Økologisk Hylleblomst",
+                    "price_nok": 79,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                },
+                {
+                    "name": "San Pellegrino",
+                    "volume": "0,5l",
+                    "price_nok": 99,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                },
+                {
+                    "name": "San Pellegrino",
+                    "volume": "0,75l",
+                    "price_nok": 139,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                }
+            ]
+        },
+        "bottles_sparkling": {
+            "england": [
+                {
+                    "producer": "Langham",
+                    "name": "Culver Classic Cuvée",
+                    "vintage": "NV",
+                    "price_nok": 1500,
+                    "description": "Classic Cuvée. Crisp acidity, dry, medium-light body. Orchard fruit, biscuit, and a fine mousse."
+                }
+            ],
+            "france_champagne": [
+                {
+                    "region": "Montage de Reims",
+                    "producer": "Laurianne Lejour",
+                    "name": "Brut Grand Cru",
+                    "vintage": "NV",
+                    "price_nok": 1500,
+                    "description": "Grand Cru Champagne. High acidity, bone dry, medium body. Complex layers of toasted almond, citrus, and chalk."
+                },
+                {
+                    "region": "Montage de Reims",
+                    "producer": "Launois",
+                    "name": "Oeil de Perdrix",
+                    "vintage": "NV",
+                    "price_nok": 1300,
+                    "description": "Oeil de Perdrix (Blanc de Noirs). Medium acidity, dry, medium body. Red berry notes with a creamy texture."
+                },
+                {
+                    "region": "Montage de Reims",
+                    "producer": "Mouzon-Leroux",
+                    "name": "L'Atavique Verzy Grand Cru Extra Brut",
+                    "vintage": "NV",
+                    "price_nok": 1450,
+                    "description": "Extra Brut. Very dry, high acidity, medium body. Intense minerality with notes of orchard fruit and toast."
+                },
+                {
+                    "region": "Montage de Reims",
+                    "producer": "Nicolas Maillart",
+                    "name": "Platine 1er Cru Brut",
+                    "vintage": "NV",
+                    "price_nok": 1400,
+                    "description": "1er Cru Brut. Crisp acidity, dry, medium body. Rich texture with toasted brioche and ripe apple."
+                },
+                {
+                    "region": "Côte des Blancs",
+                    "producer": "Pierre Peters",
+                    "name": "Blanc de Blancs Cuvée Réservée",
+                    "vintage": "NV",
+                    "price_nok": 1300,
+                    "description": "100% Chardonnay. Razor-sharp acidity, bone dry, light body. Crisp minerality with lemon zest and green apple.",
+                    "grape": "Chardonnay"
+                },
+                {
+                    "region": "Côte des Blancs",
+                    "producer": "Pierre Peters",
+                    "name": "Blanc de Blancs Cuvée Réservée MAG",
+                    "vintage": "NV",
+                    "price_nok": 3700,
+                    "description": "100% Chardonnay. Razor-sharp acidity, bone dry, light body. Crisp minerality with lemon zest and green apple.",
+                    "grape": "Chardonnay"
+                },
+                {
+                    "region": "Côte des Blancs",
+                    "producer": "Barrat-Masson",
+                    "name": "Grain d'Argile Extra Brut",
+                    "vintage": "NV",
+                    "price_nok": 1900,
+                    "description": "Extra Brut. Bone dry, high electric acidity. Precise and focused with lemon curd and chalky minerality."
+                },
+                {
+                    "region": "Côtes de Bar",
+                    "producer": "Coessens Largillier",
+                    "name": "Blanc de Noirs Brut",
+                    "vintage": "2018",
+                    "price_nok": 1900,
+                    "description": "Blanc de Noirs. Medium-high acidity, dry, medium-full body. Rich red fruit character with a vinous texture."
+                },
+                {
+                    "region": "Côtes de Bar",
+                    "producer": "Eric Legrand",
+                    "name": "Reminiscence Pinot Blanc",
+                    "vintage": "NV",
+                    "price_nok": 1850,
+                    "description": "Pinot Blanc. Medium acidity, dry, light-medium body. Floral notes, white peach, and a soft, rounded finish.",
+                    "grape": "Pinot Blanc"
+                },
+                {
+                    "region": "Côtes de Bar",
+                    "producer": "Pierre Gerbais",
+                    "name": "Grain de Celles",
+                    "vintage": "NV",
+                    "price_nok": 1400,
+                    "description": "Dry, crisp acidity, medium body. Expressive aromatics of white flowers and citrus with a mineral core."
+                },
+                {
+                    "region": "Côtes de Bar",
+                    "producer": "Pierre Gerbais",
+                    "name": "Les Grandes Côtes Pinot Noir",
+                    "vintage": "NV",
+                    "price_nok": 2500,
+                    "description": "Dry, crisp acidity, medium body. Expressive aromatics of white flowers and citrus with a mineral core.",
+                    "grape": "Pinot Noir"
+                },
+                {
+                    "region": "Côtes de Bar",
+                    "producer": "Pierre Gerbais",
+                    "name": "Grain de Celles Rosé",
+                    "vintage": "NV",
+                    "price_nok": 2200,
+                    "description": "Dry, crisp acidity, medium body. Expressive aromatics of white flowers and citrus with a mineral core."
+                },
+                {
+                    "region": "Valleé de Marne",
+                    "producer": "Champagne Tarlant",
+                    "name": "Zero Brut Nature",
+                    "vintage": "NV",
+                    "price_nok": 1700,
+                    "description": "Zero Brut Nature. Bone dry, very high acidity, medium body. Austere and precise with lemon peel and flint."
+                }
+            ],
+            "other_france": [
+                {
+                    "region": "Bourgogne",
+                    "producer": "Dom. Jean Collet&Fils",
+                    "name": "Cremant de Bourgogne Brut",
+                    "vintage": "NV",
+                    "price_nok": 1000,
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                },
+                {
+                    "region": "Loire",
+                    "producer": "M Plouzeau",
+                    "name": "Perle Sauvage Petillant Naturel",
+                    "vintage": "NV",
+                    "price_nok": 850,
+                    "description": "Pet-Nat. Refreshing acidity, very dry, light body. Hazy and vibrant with notes of pear, green apple, and yeast."
+                }
+            ],
+            "germany": [
+                {
+                    "region": "Pfalz",
+                    "producer": "Christmann&kauffmann",
+                    "name": "Cuvee No. 103 Brut Nature Sekt",
+                    "vintage": "NV",
+                    "price_nok": 1400,
+                    "description": "Sekt Brut Nature. Bone dry, high acidity, medium body. Clean and focused with fine bubbles and orchard fruit."
+                }
+            ],
+            "italia": [
+                {
+                    "region": "Trento",
+                    "producer": "Ferrari",
+                    "name": "Brut",
+                    "vintage": "NV",
+                    "price_nok": 1000,
+                    "description": "Trentodoc. High acidity, dry, medium body. Classic method sparkling with notes of golden apple, toast, and yeast."
+                },
+                {
+                    "region": "Trento",
+                    "producer": "Ferrari",
+                    "name": "Perle Vintage",
+                    "vintage": "2018",
+                    "price_nok": 1300,
+                    "description": "Trentodoc. High acidity, dry, medium body. Classic method sparkling with notes of golden apple, toast, and yeast."
+                }
+            ]
+        },
+        "bottles_white": {
+            "france": {
+                "bordeaux": [
+                    {
+                        "producer": "Chateau Loudenne",
+                        "name": "Loudenne Le Chateau Blanc",
+                        "vintage": "2017",
+                        "price_nok": 1200,
+                        "description": "Bordeaux Blanc. Medium acidity, dry, medium body. Notes of grapefruit, white peach, and a touch of oak.",
+                        "grape": "Bordeaux Blend"
+                    }
+                ],
+                "bourgogne_chablis": [
+                    {
+                        "producer": "Christian Moreau",
+                        "name": "Chablis",
+                        "vintage": "2022",
+                        "price_nok": 1300,
+                        "description": "Chablis. High electric acidity, bone dry, light-medium body. Flinty, steely minerality with green apple and lemon.",
+                        "grape": "Chardonnay",
+                        "region": "Chablis"
+                    },
+                    {
+                        "producer": "Christian Moreau",
+                        "name": "Chablis 1er Cru Les Vaillons",
+                        "vintage": "2022",
+                        "price_nok": 2100,
+                        "description": "Chablis. High electric acidity, bone dry, light-medium body. Flinty, steely minerality with green apple and lemon.",
+                        "grape": "Chardonnay",
+                        "region": "Chablis"
+                    },
+                    {
+                        "producer": "Christian Moreau",
+                        "name": "Chablis Vaudesir Grand Cru",
+                        "vintage": "2022",
+                        "price_nok": 3000,
+                        "description": "Chablis. High electric acidity, bone dry, light-medium body. Flinty, steely minerality with green apple and lemon.",
+                        "grape": "Chardonnay",
+                        "region": "Chablis"
+                    },
+                    {
+                        "producer": "Patrick Piuz",
+                        "name": "Chablis La Butte 'O'",
+                        "vintage": "2023",
+                        "price_nok": 1400,
+                        "description": "Chablis/Auxerre. Crisp high acidity, dry, light body. Pure, un-oaked Chardonnay with citrus and chalky focus.",
+                        "grape": "Chardonnay",
+                        "region": "Chablis / Auxerre"
+                    }
+                ],
+                "bourgogne_other": [
+                    {
+                        "region": "Côtes D'Auxerre",
+                        "producer": "Patrick Piuz",
+                        "name": "Bourgogne Cotes d'Auxerre",
+                        "vintage": "2023",
+                        "price_nok": 1200,
+                        "description": "Chablis/Auxerre. Crisp high acidity, dry, light body. Pure, un-oaked Chardonnay with citrus and chalky focus.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "category": "Aligoté",
+                        "producer": "Domaine Bonnardot",
+                        "name": "Bourgogne Aligoté",
+                        "vintage": "2022",
+                        "price_nok": 1200,
+                        "description": "Aligoté/Chardonnay. Fresh acidity, dry, medium body. Floral and citrusy with a clean, mineral-driven finish.",
+                        "grape": "Aligoté",
+                        "region": "Bourgogne"
+                    },
+                    {
+                        "category": "Aligoté",
+                        "producer": "Chavy Chouet Aligote",
+                        "name": "Bourgogne Aligoté",
+                        "vintage": "2023",
+                        "price_nok": 1100,
+                        "description": "Aligoté. High zesty acidity, bone dry, light body. Crisp green apple, lemon, and a saline finish.",
+                        "grape": "Aligoté",
+                        "region": "Bourgogne"
+                    },
+                    {
+                        "category": "Aligoté",
+                        "producer": "Jessica Litaud",
+                        "name": "Bourgogne-Aligoté BG",
+                        "vintage": "2023",
+                        "price_nok": 1600,
+                        "description": "Aligoté. High vibrant acidity, dry, light body. Tension-filled with notes of crunchy green apple and lemon zest.",
+                        "grape": "Aligoté",
+                        "region": "Bourgogne"
+                    },
+                    {
+                        "category": "Regional",
+                        "producer": "Domaine Chavy-Chouet",
+                        "name": "Bourgogne blanc Les Femelottes",
+                        "vintage": "2023",
+                        "price_nok": 1200,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Crunchy red fruit, light tannins, and a fresh finish.",
+                        "grape": "Chardonnay",
+                        "region": "Meursault"
+                    },
+                    {
+                        "category": "Regional",
+                        "producer": "Domaine Chavy-Chouet",
+                        "name": "Bourgogne blanc Les Femelottes MAG",
+                        "vintage": "2023",
+                        "price_nok": 2400,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Crunchy red fruit, light tannins, and a fresh finish.",
+                        "grape": "Chardonnay",
+                        "region": "Meursault"
+                    },
+                    {
+                        "category": "Regional",
+                        "producer": "Jeremy Arnaud",
+                        "name": "Bourgogne Tonnerre Les Huées",
+                        "vintage": "2023",
+                        "price_nok": 1300,
+                        "description": "Chardonnay. Racy high acidity, dry, medium body. Mineral-driven with bright lemon and a saline edge.",
+                        "grape": "Chardonnay",
+                        "region": "Bourgogne"
+                    },
+                    {
+                        "category": "Regional",
+                        "producer": "Domaine de Montille",
+                        "name": "Bourgogne Blanc Le Clos du Chateau",
+                        "vintage": "2021",
+                        "price_nok": 1550,
+                        "description": "White Burgundy. High acidity, dry, medium body. Elegant, reductive style with matchstick, citrus, and oak.",
+                        "grape": "Chardonnay",
+                        "region": "Bourgogne"
+                    },
+                    {
+                        "category": "Regional",
+                        "producer": "Dominique Lafon",
+                        "name": "Bourgogne Blanc",
+                        "vintage": "2023",
+                        "price_nok": 1650,
+                        "description": "Bourgogne Blanc. Medium-high acidity, dry, medium body. Subtle oak nuance, vibrant orchard fruit, and tension.",
+                        "grape": "Chardonnay",
+                        "region": "Meursault"
+                    },
+                    {
+                        "category": "Regional",
+                        "producer": "Domaine Paul Pillot",
+                        "name": "Bourgogne Blanc",
+                        "vintage": "2022",
+                        "price_nok": 1550,
+                        "description": "White Burgundy. High acidity, dry, medium body. Tense and precise with notes of white peach and crushed rock.",
+                        "grape": "Chardonnay",
+                        "region": "Chassagne-Montrachet"
+                    },
+                    {
+                        "category": "Regional",
+                        "producer": "Domaine Hubert Lamy",
+                        "name": "Bourgogne Les Chataigners Blanc",
+                        "vintage": "2022",
+                        "price_nok": 1700,
+                        "description": "White Burgundy. High nervous acidity, dry, medium body. Intense minerality, citrus peel, and a long finish.",
+                        "grape": "Chardonnay",
+                        "region": "Saint-Aubin"
+                    }
+                ],
+                "cote_de_beaune_nuits": [
+                    {
+                        "region": "Côte de Nuits",
+                        "producer": "Domaine Sirugue",
+                        "name": "Marsannay Blanc Aux Larrey",
+                        "vintage": "2022",
+                        "price_nok": 1650,
+                        "description": "Marsannay Blanc. Medium-high acidity, dry, medium body. Floral aromas with citrus, peach, and a hint of spice.",
+                        "grape": "Pinot Noir"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Clos du Moulin aux Moines",
+                        "name": "Pernand-Vergelesses Les Combottes",
+                        "vintage": "2020",
+                        "price_nok": 1295,
+                        "description": "White Burgundy. Medium-high acidity, dry, medium body. Complex and textured with orchard fruit and minerality.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Domaine Roulot",
+                        "name": "Monthelie 1er Cru Les Champs Fulliot",
+                        "vintage": "2022",
+                        "price_nok": 3400,
+                        "description": "White Burgundy. High precise acidity, dry, medium body. Racy and tense with lemon, hazelnut, and flawless balance."
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Domaine Espirt Leflaive",
+                        "name": "Auxey-Duresses",
+                        "vintage": "2021",
+                        "price_nok": 1700,
+                        "description": "White Burgundy. High acidity, dry, medium-full body. Rich yet focused with citrus, toast, and limestone."
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Domaine Leflaive",
+                        "name": "Puligny-Montrachet",
+                        "vintage": "2022",
+                        "price_nok": 4000,
+                        "description": "White Burgundy. High acidity, dry, full body. Iconic, complex, and powerful with notes of honey, nuts, and citrus.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Domaine Chavy-Chouet",
+                        "name": "Meursault Cassé Tete",
+                        "vintage": "2023",
+                        "price_nok": 2250,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Crunchy red fruit, light tannins, and a fresh finish.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Domaine Chavy-Chouet",
+                        "name": "Meursault Clos des Corvees de Citeau",
+                        "vintage": "2022",
+                        "price_nok": 2500,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Crunchy red fruit, light tannins, and a fresh finish.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Dom. Jean Phillipe Fichet",
+                        "name": "Meursault",
+                        "vintage": "2021",
+                        "price_nok": 2500,
+                        "description": "Meursault. Medium-high acidity, dry, medium-full body. Rich and buttery yet mineral-driven with hazelnut.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Domaine Roulot",
+                        "name": "Meursault 'A Mon Plaisir' Clos du Haut Tesson",
+                        "vintage": "2022",
+                        "price_nok": 5500,
+                        "description": "White Burgundy. High precise acidity, dry, medium body. Racy and tense with lemon, hazelnut, and flawless balance.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Antoine Jobard",
+                        "name": "Meursault 1er Cru Genevrières",
+                        "vintage": "2022",
+                        "price_nok": 7900,
+                        "description": "Meursault. High acidity, dry, full body. Reductive and taut in youth, unfurling to rich hazelnut and citrus.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Francois Carillon",
+                        "name": "Puligny-Montrachet 1er Cru Les Combettes",
+                        "vintage": "2020",
+                        "price_nok": 3500,
+                        "description": "Chardonnay. Medium-high acidity, dry, medium-full body. Elegant oak integration, hazelnut, and citrus.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Domaine Michelot",
+                        "name": "Meursault Clos Saint Felix Monopol",
+                        "vintage": "2022",
+                        "price_nok": 2750,
+                        "description": "Meursault. Medium acidity, dry, full body. Classic rich Meursault with buttery, nutty, and baked apple notes.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Dominique Lafon",
+                        "name": "Puligny-Montrachet 1er Cru Champ Gain",
+                        "vintage": "2020",
+                        "price_nok": 4200,
+                        "description": "Bourgogne Blanc. Medium-high acidity, dry, medium body. Subtle oak nuance, vibrant orchard fruit, and tension.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Thierry et Pascale Matrot",
+                        "name": "Puligny-Montrachet 1er Cru Combettes",
+                        "vintage": "2020",
+                        "price_nok": 5500,
+                        "description": "Puligny-Montrachet. High acidity, dry, medium-full body. Elegant and floral with precise minerality.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Alex Moreau",
+                        "name": "Chassagne-Montrachet",
+                        "vintage": "2022",
+                        "price_nok": 3600,
+                        "description": "Chassagne-Montrachet. High acidity, dry, medium-full body. Powerful and concentrated with ripe pear and toast.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Domaine Bonnardot",
+                        "name": "Chassagne-Montrachet",
+                        "vintage": "2022",
+                        "price_nok": 2300,
+                        "description": "Aligoté/Chardonnay. Fresh acidity, dry, medium body. Floral and citrusy with a clean, mineral-driven finish.",
+                        "grape": "Aligoté"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Domaine Lamy-Pillot",
+                        "name": "Chassagne-Montrachet Pot Bois",
+                        "vintage": "2023",
+                        "price_nok": 1990,
+                        "description": "Chassagne-Montrachet. Medium-high acidity, dry, full body. Broad and rich with notes of apricot and hazelnut.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Domaine Lamy-Pillot",
+                        "name": "Chassagne-Montrachet 1er Cru Morgeot",
+                        "vintage": "2023",
+                        "price_nok": 2800,
+                        "description": "Chassagne-Montrachet. Medium-high acidity, dry, full body. Broad and rich with notes of apricot and hazelnut.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Domaine Coffinet-Duvernay",
+                        "name": "Chassagne-Montrachet 1er Blanchot Dessus",
+                        "vintage": "2022",
+                        "price_nok": 3900,
+                        "description": "Chassagne-Montrachet. Medium-high acidity, dry, full body. Opulent and textured with layers of fruit and oak.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Domaine Coffinet-Duvernay",
+                        "name": "Chassagne-Montrachet 1er La Maltroie",
+                        "vintage": "2022",
+                        "price_nok": 2600,
+                        "description": "Chassagne-Montrachet. Medium-high acidity, dry, full body. Opulent and textured with layers of fruit and oak.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Domaine Coffinet-Duvernay",
+                        "name": "Chassagne-Montrachet 1er Les Caillerets",
+                        "vintage": "2022",
+                        "price_nok": 3700,
+                        "description": "Chassagne-Montrachet. Medium-high acidity, dry, full body. Opulent and textured with layers of fruit and oak.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Domaine Michel Niellon",
+                        "name": "Chassagne-Montrachet",
+                        "vintage": "2022",
+                        "price_nok": 2700,
+                        "description": "Chassagne-Montrachet. High acidity, dry, medium-full body. Elegant, pure, and mineral-driven with tension.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Paul Pillot",
+                        "name": "Chassagne-Montrachet 1er Cru Les Caillerets",
+                        "vintage": "2022",
+                        "price_nok": 5000,
+                        "description": "Chassagne-Montrachet. High acidity, dry, medium body. Racy, focused, and steely with citrus and crushed rocks.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Paul Pillot",
+                        "name": "Chassagne Montrachet Les Mazures",
+                        "vintage": "2022",
+                        "price_nok": 3300,
+                        "description": "Chassagne-Montrachet. High acidity, dry, medium body. Racy, focused, and steely with citrus and crushed rocks.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Domaine Hubert Lamy",
+                        "name": "Saint-Aubin La Princée",
+                        "vintage": "2022",
+                        "price_nok": 3000,
+                        "description": "White Burgundy. High nervous acidity, dry, medium body. Intense minerality, citrus peel, and a long finish.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Domaine Hubert Lamy",
+                        "name": "Saint-Aubin 1er Cru En Remilly",
+                        "vintage": "2022",
+                        "price_nok": 4700,
+                        "description": "White Burgundy. High nervous acidity, dry, medium body. Intense minerality, citrus peel, and a long finish.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Domaine Hubert Lamy",
+                        "name": "Saint-Aubin 1er Cru Les Frionnes",
+                        "vintage": "2022",
+                        "price_nok": 3600,
+                        "description": "White Burgundy. High nervous acidity, dry, medium body. Intense minerality, citrus peel, and a long finish.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Domaine Hubert Lamy",
+                        "name": "Saint-Aubin 1er Cru Clos de la Chatèniere MAG",
+                        "vintage": "2022",
+                        "price_nok": 9500,
+                        "description": "White Burgundy. High nervous acidity, dry, medium body. Intense minerality, citrus peel, and a long finish.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Domaine Hubert Lamy",
+                        "name": "Santenay 1er Cru Clos des Gravieres",
+                        "vintage": "2022",
+                        "price_nok": 3600,
+                        "description": "White Burgundy. High nervous acidity, dry, medium body. Intense minerality, citrus peel, and a long finish.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Domaine Sylvain Langoureau",
+                        "name": "Saint Aubin Village",
+                        "vintage": "2024",
+                        "price_nok": 1650,
+                        "description": "Saint-Aubin. High acidity, dry, medium body. Tense and mineral with notes of green apple and lemon.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Domaine Sylvain Langoureau",
+                        "name": "Saint-Aubin 1er Cru Le Champlot",
+                        "vintage": "2024",
+                        "price_nok": 2000,
+                        "description": "Saint-Aubin. High acidity, dry, medium body. Tense and mineral with notes of green apple and lemon.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Domaine Sylvain Langoureau",
+                        "name": "Saint-Aubin 1er Cru En Remilly",
+                        "vintage": "2024",
+                        "price_nok": 2300,
+                        "description": "Saint-Aubin. High acidity, dry, medium body. Tense and mineral with notes of green apple and lemon.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Beaune",
+                        "producer": "Domaine de Montille",
+                        "name": "Corton-Charlemagne Grand Cru",
+                        "vintage": "2021",
+                        "price_nok": 4500,
+                        "description": "White Burgundy. High acidity, dry, medium body. Elegant, reductive style with matchstick, citrus, and oak.",
+                        "grape": "Chardonnay"
+                    }
+                ],
+                "maconnais": [
+                    {
+                        "producer": "Héritiers du Comte Lafon",
+                        "name": "Clos De La Crochette",
+                        "vintage": "2020",
+                        "price_nok": 1450,
+                        "description": "Mâconnais. Medium acidity, dry, medium-full body. Ripe tropical fruit, peach, and a rounded mouthfeel.",
+                        "grape": "Chardonnay",
+                        "region": "Mâconnais"
+                    },
+                    {
+                        "producer": "Domaine Leflaive",
+                        "name": "Macon-Verzé",
+                        "vintage": "2022",
+                        "price_nok": 1800,
+                        "description": "White Burgundy. High acidity, dry, full body. Iconic, complex, and powerful with notes of honey, nuts, and citrus."
+                    },
+                    {
+                        "producer": "Domaine Leflaive",
+                        "name": "Pouilly-Fuisse",
+                        "vintage": "2023",
+                        "price_nok": 3000,
+                        "description": "White Burgundy. High acidity, dry, full body. Iconic, complex, and powerful with notes of honey, nuts, and citrus."
+                    },
+                    {
+                        "producer": "Simon Faure",
+                        "name": "Saint-Véran Les Cras",
+                        "vintage": "2023",
+                        "price_nok": 1550,
+                        "description": "Mâconnais. Medium-high acidity, dry, medium body. Vibrant and fruity with citrus, melon, and floral notes.",
+                        "grape": "Chardonnay",
+                        "region": "Mâconnais"
+                    },
+                    {
+                        "producer": "Simon Faure",
+                        "name": "VDF Chef un P'tit Vert",
+                        "vintage": "2023",
+                        "price_nok": 1200,
+                        "description": "Mâconnais. Medium-high acidity, dry, medium body. Vibrant and fruity with citrus, melon, and floral notes.",
+                        "grape": "Chardonnay",
+                        "region": "Mâconnais"
+                    }
+                ],
+                "jura": [
+                    {
+                        "producer": "Domaine Gréa",
+                        "name": "Côtes du Jura Chardonnay VV",
+                        "vintage": "2023",
+                        "price_nok": 850,
+                        "description": "Jura Chardonnay. High electric acidity, dry, medium body. Oxidative hint with notes of bruised apple and hazelnut.",
+                        "grape": "Chardonnay",
+                        "region": "Jura"
+                    },
+                    {
+                        "producer": "Montbourgeau",
+                        "name": "L'ètoile",
+                        "vintage": "2022",
+                        "price_nok": 1200,
+                        "description": "L'Étoile. High acidity, dry, medium body. Classic Jura style, slightly oxidative with walnut and flor notes.",
+                        "grape": "Chardonnay",
+                        "region": "Jura"
+                    },
+                    {
+                        "producer": "Domaine du Pelican",
+                        "name": "Arbois Chardonnay",
+                        "vintage": "2024",
+                        "price_nok": 1500,
+                        "description": "Arbois Chardonnay. High acidity, dry, medium body. Pristine and reductive with lemon peel and flint.",
+                        "grape": "Chardonnay",
+                        "region": "Arbois (Jura)"
+                    }
+                ],
+                "loire": [
+                    {
+                        "producer": "Arnaud Lambert",
+                        "name": "Saumur Blanc",
+                        "vintage": "2023",
+                        "price_nok": 1000,
+                        "description": "Saumur Blanc (Chenin Blanc). High acidity, dry, medium body. Notes of quince, wet wool, and chamomile.",
+                        "grape": "Chenin Blanc",
+                        "region": "Saumur"
+                    },
+                    {
+                        "producer": "Gérard Bouley",
+                        "name": "Sancerre",
+                        "vintage": "2023",
+                        "price_nok": 1300,
+                        "description": "Sancerre (Sauvignon Blanc). High racy acidity, bone dry, light body. Grassy, flinty, with gooseberry and citrus.",
+                        "grape": "Sauvignon Blanc",
+                        "region": "Sancerre"
+                    },
+                    {
+                        "producer": "Jerome Bretaudeau",
+                        "name": "Muscadet Theia",
+                        "vintage": "2023",
+                        "price_nok": 1100,
+                        "description": "Muscadet. High acidity, bone dry, light body. Saline and crisp with notes of lemon, sea spray, and lees.",
+                        "grape": "Melon de Bourgogne",
+                        "region": "Muscadet"
+                    },
+                    {
+                        "producer": "Dom. A. Cailbourdin",
+                        "name": "Pouilly-Fumé Triptyque",
+                        "vintage": "2019",
+                        "price_nok": 1300,
+                        "description": "Pouilly-Fumé. High acidity, dry, light-medium body. Smoky flint, grapefruit, and herbaceous notes.",
+                        "grape": "Sauvignon Blanc",
+                        "region": "Pouilly-Fumé"
+                    }
+                ],
+                "rhone": [
+                    {
+                        "producer": "David Reynaud",
+                        "name": "Crozes-Hermitage Aux Bétises",
+                        "vintage": "2022",
+                        "price_nok": 1250,
+                        "description": "Northern Rhône Syrah. Medium-high acidity, dry, medium body. Supple tannins, biodynamic, with vibrant blackberry and pepper.",
+                        "grape": "Syrah",
+                        "region": "Rhône"
+                    },
+                    {
+                        "producer": "Domaine E. Guigal",
+                        "name": "Côtes du Rhone Blanc",
+                        "vintage": "2024",
+                        "price_nok": 845,
+                        "description": "Côtes du Rhône Blanc. Low acidity, dry, full body. Rich and aromatic with apricot, honeysuckle, and melon."
+                    }
+                ],
+                "languedoc": [
+                    {
+                        "producer": "Francois Carillon",
+                        "name": "Cap au sud Chardonnay VDF",
+                        "vintage": "2023",
+                        "price_nok": 1050,
+                        "description": "Chardonnay. Medium-high acidity, dry, medium-full body. Elegant oak integration, hazelnut, and citrus.",
+                        "grape": "Chardonnay",
+                        "region": "Puligny-Montrachet"
+                    }
+                ]
+            },
+            "international": {
+                "england": [
+                    {
+                        "producer": "Danbury Ridge",
+                        "name": "Chardonnay",
+                        "vintage": "2020",
+                        "price_nok": 1500,
+                        "description": "English Chardonnay. High acidity, dry, medium body. Crisp and elegant with notes of green apple and subtle oak.",
+                        "grape": "Chardonnay",
+                        "region": "England"
+                    }
+                ],
+                "italia": [
+                    {
+                        "region": "Trentino",
+                        "producer": "Lunelli Villa Margon",
+                        "name": "Chardonnay",
+                        "vintage": "2020",
+                        "price_nok": 1200,
+                        "description": "Trentino Chardonnay. Medium-high acidity, dry, medium body. Clean and fruity with notes of apple and white peach.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Sicilia",
+                        "producer": "Benanti",
+                        "name": "Etna Bianco",
+                        "vintage": "2023",
+                        "price_nok": 1100,
+                        "description": "Etna Bianco. High acidity, bone dry, medium body. Intense volcanic minerality with notes of lemon and sea salt.",
+                        "grape": "Carricante"
+                    }
+                ],
+                "spania": [
+                    {
+                        "region": "Valdeorras",
+                        "producer": "Rafael Palacios",
+                        "name": "Louro",
+                        "vintage": "2023",
+                        "price_nok": 1000,
+                        "description": "Godello. Medium-high acidity, dry, medium-full body. Waxy texture with lemon zest, peach, and crushed rocks.",
+                        "grape": "Godello"
+                    },
+                    {
+                        "region": "Valdeorras",
+                        "producer": "Rafael Palacios",
+                        "name": "As Sortes",
+                        "vintage": "2022",
+                        "price_nok": 1800,
+                        "description": "Godello. Medium-high acidity, dry, medium-full body. Waxy texture with lemon zest, peach, and crushed rocks.",
+                        "grape": "Godello"
+                    },
+                    {
+                        "region": "Penedes",
+                        "producer": "Celler Credo Aloers",
+                        "name": "Credo Aloers (skallkontakt)",
+                        "vintage": "2020",
+                        "price_nok": 900,
+                        "description": "Xarel-lo. High acidity, dry, medium body. Textured with skin contact, notes of fennel, citrus, and herbs.",
+                        "grape": "Xarel-lo"
+                    }
+                ],
+                "germany": [
+                    {
+                        "region": "Mosel",
+                        "producer": "Weingut Clemens Busch",
+                        "name": "Riesling Trocken",
+                        "vintage": "2023",
+                        "price_nok": 750,
+                        "description": "Mosel Riesling. Very high acidity, dry, light-medium body. Intense slate minerality, lime, and white peach.",
+                        "grape": "Riesling"
+                    },
+                    {
+                        "region": "Mosel",
+                        "producer": "Weingut Clemens Busch",
+                        "name": "Marienburg Fahrlay GG",
+                        "vintage": "2022",
+                        "price_nok": 1650,
+                        "description": "Mosel Riesling. Very high acidity, dry, light-medium body. Intense slate minerality, lime, and white peach.",
+                        "grape": "Riesling"
+                    },
+                    {
+                        "region": "Nahe",
+                        "producer": "Weingut Dönnhoff",
+                        "name": "Tonschiefer Riesling Trocken",
+                        "vintage": "2023",
+                        "price_nok": 900,
+                        "description": "Nahe Riesling. High elegant acidity, dry, medium body. Pristine and pure with notes of citrus, flint, and apricot.",
+                        "grape": "Riesling"
+                    },
+                    {
+                        "region": "Nahe",
+                        "producer": "Weingut Dönnhoff",
+                        "name": "Hollenpfad Riesling Trocken Erste Lage",
+                        "vintage": "2023",
+                        "price_nok": 1400,
+                        "description": "Nahe Riesling. High elegant acidity, dry, medium body. Pristine and pure with notes of citrus, flint, and apricot.",
+                        "grape": "Riesling"
+                    },
+                    {
+                        "region": "Nahe",
+                        "producer": "Weingut Schäfer-Fröhlich",
+                        "name": "Stromberg Riesling GG",
+                        "vintage": "2022",
+                        "price_nok": 2500,
+                        "description": "Nahe Riesling. Extreme high acidity, dry, medium body. Spontaneous fermentation notes, flint, and intense citrus.",
+                        "grape": "Riesling"
+                    },
+                    {
+                        "region": "Nahe",
+                        "producer": "Weingut Schäfer-Fröhlich",
+                        "name": "Felseneck Riesling GG",
+                        "vintage": "2022",
+                        "price_nok": 2650,
+                        "description": "Nahe Riesling. Extreme high acidity, dry, medium body. Spontaneous fermentation notes, flint, and intense citrus.",
+                        "grape": "Riesling"
+                    },
+                    {
+                        "region": "Pfalz",
+                        "producer": "Acham-Magin",
+                        "name": "Riesling Trocken",
+                        "vintage": "2024",
+                        "price_nok": 700,
+                        "description": "Dry Riesling. High bracing acidity, light body. Crisp and aromatic with notes of lime, green apple, and slate.",
+                        "grape": "Riesling"
+                    },
+                    {
+                        "region": "Pfalz",
+                        "producer": "Acham-Magin",
+                        "name": "Forster Ungeheuer Riesling GG",
+                        "vintage": "2023",
+                        "price_nok": 1700,
+                        "description": "Dry Riesling. High bracing acidity, light body. Crisp and aromatic with notes of lime, green apple, and slate.",
+                        "grape": "Riesling"
+                    },
+                    {
+                        "region": "Pfalz",
+                        "producer": "Dr.Bürklin-Wolf",
+                        "name": "Wachenheimer Riesling Trocken",
+                        "vintage": "2017",
+                        "price_nok": 995,
+                        "description": "Pfalz Riesling. High acidity, dry, medium-full body. Powerful and structured with ripe peach and earthy minerality.",
+                        "grape": "Riesling"
+                    },
+                    {
+                        "region": "Pfalz",
+                        "producer": "George Mosbacher",
+                        "name": "Paradisergarten Riesling Trocken",
+                        "vintage": "2023",
+                        "price_nok": 1000,
+                        "description": "Pfalz Riesling. High acidity, dry, medium body. Juicy and fruit-forward with notes of nectarine and citrus.",
+                        "grape": "Riesling"
+                    }
+                ],
+                "usa": [
+                    {
+                        "region": "California",
+                        "producer": "Chanin",
+                        "name": "Santa Barbara",
+                        "vintage": "2022",
+                        "price_nok": 1400,
+                        "description": "California Chardonnay. Medium-high acidity, dry, medium-full body. Elegant, Burgundian style with bright fruit and subtle oak.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "California",
+                        "producer": "Storm Wines",
+                        "name": "Santa Barbara Count Chardonnay",
+                        "vintage": "2022",
+                        "price_nok": 1400,
+                        "description": "California Chardonnay. High acidity, dry, medium body. Tense and saline with notes of lemon rind and crushed shells.",
+                        "grape": "Chardonnay"
+                    }
+                ]
+            }
+        },
+        "bottles_rose": [
+            {
+                "producer": "Miraval",
+                "name": "Miraval Rosé",
+                "vintage": "2024",
+                "price_nok": 1100,
+                "description": "Rosé. Medium-high acidity, dry, light-medium body. Crisp and pale with notes of wild strawberry, peach, and white flowers."
+            }
+        ],
+        "bottles_red": {
+            "france": {
+                "bordeaux": [
+                    {
+                        "region": "Haut-Medoc",
+                        "producer": "Chateau Camino Salva",
+                        "name": "Chateau Camino Salva",
+                        "vintage": "2019",
+                        "price_nok": 850,
+                        "description": "Bordeaux Blend. Medium acidity, dry, medium-full body. Firm tannins with notes of cassis, cedar, and graphite.",
+                        "grape": "Bordeaux Blend"
+                    },
+                    {
+                        "region": "Saint-Julien",
+                        "producer": "Chateau Lanessan",
+                        "name": "Chateau Lanessan",
+                        "vintage": "2014",
+                        "price_nok": 1100,
+                        "description": "Bordeaux Blend. Medium acidity, dry, medium-full body. Resolved tannins with mature notes of leather, tobacco, and plum.",
+                        "grape": "Bordeaux Blend"
+                    },
+                    {
+                        "region": "Saint-Julien",
+                        "producer": "Château Ducru Bucailleau",
+                        "name": "Le Petit Ducru Beaucaillou",
+                        "vintage": "2019",
+                        "price_nok": 1350,
+                        "description": "Bordeaux Blend. Medium acidity, dry, full body. Silky tannins with concentrated blackberry and spice.",
+                        "grape": "Bordeaux Blend"
+                    }
+                ],
+                "bourgogne_regional": [
+                    {
+                        "producer": "Domaine Chavy-Chouet",
+                        "name": "Bourgogne Rouge La Taupe",
+                        "vintage": "2023",
+                        "price_nok": 1250,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Crunchy red fruit, light tannins, and a fresh finish.",
+                        "grape": "Chardonnay",
+                        "region": "Meursault"
+                    },
+                    {
+                        "producer": "Domaine Chavy-Chouet",
+                        "name": "Bourgogne Rouge La Taupe MAG",
+                        "vintage": "2023",
+                        "price_nok": 2400,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Crunchy red fruit, light tannins, and a fresh finish.",
+                        "grape": "Chardonnay",
+                        "region": "Meursault"
+                    },
+                    {
+                        "producer": "Georges Glantenay",
+                        "name": "Bourgogne Rouge Maison Dieu",
+                        "vintage": "2022",
+                        "price_nok": 1250,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Fine tannins with notes of red cherry, raspberry, and earth.",
+                        "grape": "Pinot Noir",
+                        "region": "Bourgogne"
+                    },
+                    {
+                        "producer": "Domaine Dureuil-Janthial",
+                        "name": "Rully Rouge",
+                        "vintage": "2021",
+                        "price_nok": 1200,
+                        "description": "Rully Rouge. Medium-high acidity, dry, medium body. Supple tannins with notes of wild strawberry and spice.",
+                        "grape": "Pinot Noir",
+                        "region": "Rully"
+                    },
+                    {
+                        "producer": "Jeremy Arnaud",
+                        "name": "Bourgogne Rouge Les Veuillots Inox",
+                        "vintage": "2022",
+                        "price_nok": 1200,
+                        "description": "Chardonnay. Racy high acidity, dry, medium body. Mineral-driven with bright lemon and a saline edge.",
+                        "grape": "Chardonnay",
+                        "region": "Bourgogne"
+                    },
+                    {
+                        "producer": "Domaine Lucien Muzard & Fils",
+                        "name": "Bourgogne Rouge",
+                        "vintage": "2022",
+                        "price_nok": 1250,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Earthy and structured with dark cherry and fine tannins.",
+                        "grape": "Pinot Noir",
+                        "region": "Bourgogne"
+                    },
+                    {
+                        "producer": "Domaine de Montille",
+                        "name": "Bourgogne Rouge",
+                        "vintage": "2022",
+                        "price_nok": 1500,
+                        "description": "White Burgundy. High acidity, dry, medium body. Elegant, reductive style with matchstick, citrus, and oak.",
+                        "grape": "Chardonnay",
+                        "region": "Bourgogne"
+                    },
+                    {
+                        "producer": "Oliver Merlin",
+                        "name": "Bourgogne Rouge Les Cras",
+                        "vintage": "2022",
+                        "price_nok": 1250,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Juicy and approachable with bright red fruit and soft tannins.",
+                        "grape": "Pinot Noir",
+                        "region": "Bourgogne"
+                    },
+                    {
+                        "producer": "Domaine Sirugue",
+                        "name": "Bourgogne Rouge Côte d'Or Sélection",
+                        "vintage": "2022",
+                        "price_nok": 1400,
+                        "description": "Marsannay Blanc. Medium-high acidity, dry, medium body. Floral aromas with citrus, peach, and a hint of spice.",
+                        "grape": "Pinot Noir",
+                        "region": "Bourgogne"
+                    },
+                    {
+                        "producer": "Domaine de Cassiopee",
+                        "name": "Bourgogne Rouge En Gerlieus",
+                        "vintage": "2022",
+                        "price_nok": 1650,
+                        "description": "Pinot Noir. High acidity, dry, medium body. Tense and vibrant with crunchy red fruit and floral notes.",
+                        "grape": "Pinot Noir",
+                        "region": "Bourgogne"
+                    }
+                ],
+                "bourgogne_village_cru": [
+                    {
+                        "region": "Côte de Nuits",
+                        "producer": "Sirugue",
+                        "name": "Marsannay Les Quartiers",
+                        "vintage": "2021",
+                        "price_nok": 1600,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Classic forest floor, cherry, and silky tannins."
+                    },
+                    {
+                        "region": "Côte de Nuits",
+                        "producer": "Cyprien Arlaud",
+                        "name": "Vosne-Romanée Aux Réas",
+                        "vintage": "2021",
+                        "price_nok": 3600,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Perfumed and elegant with notes of violet, spice, and red fruit.",
+                        "grape": "Pinot Noir"
+                    },
+                    {
+                        "region": "Côte de Nuits",
+                        "producer": "Domaine Patrice Rion",
+                        "name": "Nuits-Saint-Georges Vieilles Vignes",
+                        "vintage": "2021",
+                        "price_nok": 2300,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Structured and earthy with dark fruit and fine tannins.",
+                        "grape": "Pinot Noir"
+                    },
+                    {
+                        "region": "Côte de Nuits",
+                        "producer": "Jean-Jacques Confuron",
+                        "name": "Chambolle-Musigny",
+                        "vintage": "2022",
+                        "price_nok": 2700,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Plush and textured with rich black cherry and spice.",
+                        "grape": "Pinot Noir"
+                    },
+                    {
+                        "region": "Côte de Nuits",
+                        "producer": "Domaine Roumier",
+                        "name": "Chambolle Musigny 1er Cru Combottes",
+                        "vintage": "2022",
+                        "price_nok": 4200,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium-full body. Iconic, structured, and complex with intense floral and fruit notes.",
+                        "grape": "Pinot Noir"
+                    },
+                    {
+                        "region": "Côte de Nuits",
+                        "producer": "Domaine Rossignol-Trapet",
+                        "name": "Gevrey-Chambertin Vieilles Vignes",
+                        "vintage": "2021",
+                        "price_nok": 2300,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium-full body. Earthy, structured Gevrey with firm tannins and dark fruit.",
+                        "grape": "Pinot Noir"
+                    },
+                    {
+                        "region": "Côte de Nuits",
+                        "producer": "Mugneret-Gibourg",
+                        "name": "Vosne Romanée",
+                        "vintage": "2021",
+                        "price_nok": 3500,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Incredibly elegant and perfumed with silky tannins and pure red fruit.",
+                        "grape": "Pinot Noir"
+                    },
+                    {
+                        "region": "Côte de Nuits",
+                        "producer": "Mugneret-Gibourg",
+                        "name": "Vosne Romanée",
+                        "vintage": "2022",
+                        "price_nok": 3500,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Incredibly elegant and perfumed with silky tannins and pure red fruit.",
+                        "grape": "Pinot Noir"
+                    },
+                    {
+                        "region": "Côte de Nuits",
+                        "producer": "Coquard Loison Fleurot",
+                        "name": "Clos Vougeot Grand Cru",
+                        "vintage": "2022",
+                        "price_nok": 7000,
+                        "description": "Pinot Noir Grand Cru. Medium-high acidity, dry, full body. Powerful and structured with dark fruit, earth, and firm tannins.",
+                        "grape": "Pinot Noir"
+                    },
+                    {
+                        "region": "Côte de Nuits",
+                        "producer": "Coquard Loison Fleurot",
+                        "name": "Clos De La Roche Grand Cru",
+                        "vintage": "2022",
+                        "price_nok": 7000,
+                        "description": "Pinot Noir Grand Cru. Medium-high acidity, dry, full body. Powerful and structured with dark fruit, earth, and firm tannins.",
+                        "grape": "Pinot Noir"
+                    },
+                    {
+                        "region": "Côte de Beaune",
+                        "producer": "Georges Glantenay",
+                        "name": "Volnay",
+                        "vintage": "2022",
+                        "price_nok": 1900,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Fine tannins with notes of red cherry, raspberry, and earth.",
+                        "grape": "Pinot Noir"
+                    },
+                    {
+                        "region": "Côte de Beaune",
+                        "producer": "Georges Glantenay",
+                        "name": "Pommard",
+                        "vintage": "2022",
+                        "price_nok": 1900,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Fine tannins with notes of red cherry, raspberry, and earth.",
+                        "grape": "Pinot Noir"
+                    },
+                    {
+                        "region": "Côte de Beaune",
+                        "producer": "Benjamin Leroux",
+                        "name": "Savigny-lès-Beaune",
+                        "vintage": "2023",
+                        "price_nok": 1800,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Approachable and pure with notes of red cherry and spice.",
+                        "grape": "Pinot Noir"
+                    },
+                    {
+                        "region": "Côte de Beaune",
+                        "producer": "Antoine Jobard",
+                        "name": "Beaune Epenottes",
+                        "vintage": "2021",
+                        "price_nok": 2750,
+                        "description": "Meursault. High acidity, dry, full body. Reductive and taut in youth, unfurling to rich hazelnut and citrus.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Côte de Beaune",
+                        "producer": "Domaine Dujardin",
+                        "name": "Monthélie Les Trois Climats",
+                        "vintage": "2022",
+                        "price_nok": 1450,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Rustic and earthy with notes of red currant and firm tannins.",
+                        "grape": "Pinot Noir"
+                    },
+                    {
+                        "region": "Côte de Beaune",
+                        "producer": "Domaine Dujardin",
+                        "name": "Monthélie 1er Cru Les Champs Fuillot",
+                        "vintage": "2020",
+                        "price_nok": 1850,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Rustic and earthy with notes of red currant and firm tannins.",
+                        "grape": "Pinot Noir"
+                    },
+                    {
+                        "region": "Côte de Beaune",
+                        "producer": "Lamy-Pillot",
+                        "name": "Chassagne-Montrachet Rouge 'Camps de Morgeot'",
+                        "vintage": "2022",
+                        "price_nok": 2200,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Structured and spicy with notes of dark cherry and underbrush.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Côte de Beaune",
+                        "producer": "Clos du Moulin aux Moines",
+                        "name": "Pommard 1er Cru Clos Orgelot",
+                        "vintage": "2017",
+                        "price_nok": 1900,
+                        "description": "White Burgundy. Medium-high acidity, dry, medium body. Complex and textured with orchard fruit and minerality.",
+                        "grape": "Chardonnay"
+                    },
+                    {
+                        "region": "Côte de Beaune",
+                        "producer": "Domaine Taupenot-Merme",
+                        "name": "Saint-Romain Rouge",
+                        "vintage": "2021",
+                        "price_nok": 1700,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Elegant and mineral-driven with crunchy red fruit.",
+                        "grape": "Pinot Noir"
+                    },
+                    {
+                        "region": "Côte de Beaune",
+                        "producer": "Domaine Lucien Muzard & Fils",
+                        "name": "Santenay 1er Cru Maladière",
+                        "vintage": "2021",
+                        "price_nok": 1650,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Earthy and structured with dark cherry and fine tannins.",
+                        "grape": "Pinot Noir"
+                    },
+                    {
+                        "region": "Côte de Beaune",
+                        "producer": "Domaine Lucien Muzard & Fils",
+                        "name": "Santenay Charmes Rouge",
+                        "vintage": "2021",
+                        "price_nok": 1650,
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Earthy and structured with dark cherry and fine tannins.",
+                        "grape": "Pinot Noir"
+                    }
+                ],
+                "beaujolais": [
+                    {
+                        "producer": "Jean-Claude Lapalu",
+                        "name": "Beaujolais-Villages Vieilles Vignes",
+                        "vintage": "2023",
+                        "price_nok": 995,
+                        "description": "Gamay. High acidity, dry, light-medium body. Low tannins, juicy and whole-cluster driven with notes of red berry and violet.",
+                        "grape": "Gamay",
+                        "region": "Beaujolais"
+                    },
+                    {
+                        "producer": "Domaine Richard Rottiers",
+                        "name": "Beaujolais-Villages La Sambinerie",
+                        "vintage": "2022",
+                        "price_nok": 900,
+                        "description": "Gamay. High acidity, dry, light-medium body. Soft tannins, highly drinkable with notes of crushed strawberry and granite.",
+                        "grape": "Gamay",
+                        "region": "Beaujolais"
+                    }
+                ],
+                "jura": [
+                    {
+                        "producer": "Domaine du Pelican",
+                        "name": "Arbois Pinot Noir Clos Saint-Laurent",
+                        "vintage": "2022",
+                        "price_nok": 1700,
+                        "description": "Arbois Chardonnay. High acidity, dry, medium body. Pristine and reductive with lemon peel and flint.",
+                        "grape": "Pinot Noir",
+                        "region": "Arbois (Jura)"
+                    }
+                ],
+                "loire": [
+                    {
+                        "producer": "Domaine Bretaudeau",
+                        "name": "Statera Rouge",
+                        "vintage": "2022",
+                        "price_nok": 2300,
+                        "description": "Loire Rouge. Medium-high acidity, dry, medium body. Fresh and crunchy with peppery spice and red fruit."
+                    }
+                ],
+                "rhone": [
+                    {
+                        "producer": "Alain Graillot",
+                        "name": "Crozes-Hermitage",
+                        "vintage": "2022",
+                        "price_nok": 1650,
+                        "description": "Crozes-Hermitage (Syrah). Medium-high acidity, dry, medium body. Firm tannins, savory with notes of olive, meat, and black pepper.",
+                        "grape": "Syrah",
+                        "region": "Crozes-Hermitage"
+                    },
+                    {
+                        "producer": "Bernard Gripa",
+                        "name": "Saint-Joseph Rouge",
+                        "vintage": "2021",
+                        "price_nok": 1450,
+                        "description": "Saint-Joseph (Syrah). Medium-high acidity, dry, medium-full body. Granitic minerality, dark fruit, and smoked meat.",
+                        "grape": "Syrah",
+                        "region": "Saint-Joseph"
+                    },
+                    {
+                        "producer": "David Reynaud",
+                        "name": "Crozes-Hermitage Beaumont",
+                        "vintage": "2024",
+                        "price_nok": 1000,
+                        "description": "Northern Rhône Syrah. Medium-high acidity, dry, medium body. Supple tannins, biodynamic, with vibrant blackberry and pepper.",
+                        "grape": "Syrah",
+                        "region": "Rhône"
+                    },
+                    {
+                        "producer": "David Reynaud",
+                        "name": "Saint-Joseph 350m",
+                        "vintage": "2022",
+                        "price_nok": 1300,
+                        "description": "Northern Rhône Syrah. Medium-high acidity, dry, medium body. Supple tannins, biodynamic, with vibrant blackberry and pepper.",
+                        "grape": "Syrah",
+                        "region": "Rhône"
+                    },
+                    {
+                        "producer": "David Reynaud",
+                        "name": "Crozes-Hermitage Les Croix",
+                        "vintage": "2021",
+                        "price_nok": 1450,
+                        "description": "Northern Rhône Syrah. Medium-high acidity, dry, medium body. Supple tannins, biodynamic, with vibrant blackberry and pepper.",
+                        "grape": "Syrah",
+                        "region": "Rhône"
+                    },
+                    {
+                        "producer": "Dom. Du Coulet-Mattieu Barret",
+                        "name": "No Wines Land",
+                        "vintage": "2023",
+                        "price_nok": 1200,
+                        "description": "Northern Rhône Syrah. Medium-high acidity, dry, medium body. Pure and unoaked, bursting with juicy dark fruit and violet.",
+                        "grape": "Syrah",
+                        "region": "Rhône"
+                    },
+                    {
+                        "producer": "Chateau Rayas",
+                        "name": "La Pialade",
+                        "vintage": "2020",
+                        "price_nok": 2650,
+                        "description": "Southern Rhône Blend. Medium acidity, dry, medium-full body. Legendary and ethereal with notes of kirsch, garrigue, and exotic spice.",
+                        "grape": "Grenache",
+                        "region": "Châteauneuf-du-Pape"
+                    }
+                ]
+            },
+            "italia": {
+                "piemonte": [
+                    {
+                        "producer": "Brovia",
+                        "name": "Barbera d'Alba Sori del Drago",
+                        "vintage": "2020",
+                        "price_nok": 1300,
+                        "description": "Barbera. High acidity, dry, medium-full body. Low tannins, rich and juicy with notes of dark cherry, plum, and spice.",
+                        "grape": "Barbera",
+                        "region": "Piemonte"
+                    },
+                    {
+                        "producer": "Luciano Sandrone",
+                        "name": "Barbera d 'Alba",
+                        "vintage": "2022",
+                        "price_nok": 1350,
+                        "description": "Barbera. High acidity, dry, medium-full body. Polished and elegant, bursting with ripe red and black fruit.",
+                        "grape": "Barbera",
+                        "region": "Piemonte"
+                    },
+                    {
+                        "producer": "Cavalotto",
+                        "name": "Langhe Nebbiolo",
+                        "vintage": "2020",
+                        "price_nok": 1300,
+                        "description": "Nebbiolo. High acidity, dry, medium-full body. Grippy, formidable tannins with notes of tar, roses, and dried cherry.",
+                        "grape": "Nebbiolo",
+                        "region": "Piemonte"
+                    },
+                    {
+                        "producer": "E. Pira di Chiara Boschis",
+                        "name": "Dolcetto d'Alba",
+                        "vintage": "2024",
+                        "price_nok": 1100,
+                        "description": "Dolcetto/Barolo. High acidity, dry, full body. Powerful tannins (Barolo) or juicy black fruit (Dolcetto).",
+                        "grape": "Dolcetto",
+                        "region": "Piemonte (Alba)"
+                    },
+                    {
+                        "producer": "E. Pira di Chiara Boschis",
+                        "name": "Barolo Via Nuova",
+                        "vintage": "2021",
+                        "price_nok": 2500,
+                        "description": "Dolcetto/Barolo. High acidity, dry, full body. Powerful tannins (Barolo) or juicy black fruit (Dolcetto).",
+                        "grape": "Nebbiolo",
+                        "region": "Piemonte (Alba)"
+                    },
+                    {
+                        "producer": "Elio Altare",
+                        "name": "Barbera D'Alba Superiore",
+                        "vintage": "2024",
+                        "price_nok": 1150,
+                        "description": "Barbera/Nebbiolo. High acidity, dry, medium-full body. Modern style, plush fruit, and integrated oak.",
+                        "grape": "Barbera",
+                        "region": "Piemonte"
+                    },
+                    {
+                        "producer": "Elio Altare",
+                        "name": "Langhe Nebbiolo",
+                        "vintage": "2024",
+                        "price_nok": 1200,
+                        "description": "Barbera/Nebbiolo. High acidity, dry, medium-full body. Modern style, plush fruit, and integrated oak.",
+                        "grape": "Barbera",
+                        "region": "Piemonte"
+                    },
+                    {
+                        "producer": "Luigi Giordano",
+                        "name": "Barbaresco Asili",
+                        "vintage": "2021",
+                        "price_nok": 1600,
+                        "description": "Barbaresco (Nebbiolo). High acidity, dry, medium-full body. Firm tannins with notes of dried rose, cherry, and tar.",
+                        "grape": "Nebbiolo",
+                        "region": "Barbaresco"
+                    },
+                    {
+                        "producer": "Francesco Brigatti",
+                        "name": "Ghemme Oltre il Bosco",
+                        "vintage": "2018",
+                        "price_nok": 1150,
+                        "description": "Ghemme (Nebbiolo). High acidity, dry, medium body. Firm tannins, earthy and rustic with notes of dried fruit and leather.",
+                        "grape": "Nebbiolo",
+                        "region": "Ghemme"
+                    },
+                    {
+                        "producer": "G.D. Vajra",
+                        "name": "Langhe Nebbiolo",
+                        "vintage": "2022",
+                        "price_nok": 900,
+                        "description": "Nebbiolo/Barolo. High acidity, dry, medium-full body. Elegant and perfumed with firm tannins, red cherry, and floral notes.",
+                        "grape": "Nebbiolo",
+                        "region": "Piemonte"
+                    },
+                    {
+                        "producer": "G.D. Vajra",
+                        "name": "Barolo Coste di Rose",
+                        "vintage": "2018",
+                        "price_nok": 2000,
+                        "description": "Nebbiolo/Barolo. High acidity, dry, medium-full body. Elegant and perfumed with firm tannins, red cherry, and floral notes.",
+                        "grape": "Nebbiolo",
+                        "region": "Piemonte"
+                    },
+                    {
+                        "producer": "Tenuta Carretta",
+                        "name": "Cascina Ferrero Barolo",
+                        "vintage": "2019",
+                        "price_nok": 1300,
+                        "description": "Barolo. High acidity, dry, full body. Grippy tannins, structured with notes of tar, roses, and spice.",
+                        "grape": "Nebbiolo",
+                        "region": "Barolo"
+                    }
+                ],
+                "toscana": [
+                    {
+                        "producer": "Fossacolle",
+                        "name": "Rosso di Montalcino",
+                        "vintage": "2020",
+                        "price_nok": 950,
+                        "description": "Sangiovese. High acidity, dry, medium body. Firm tannins with notes of sour cherry, leather, and earth.",
+                        "grape": "Sangiovese",
+                        "region": "Montalcino"
+                    },
+                    {
+                        "producer": "Poggio Al Tesoro",
+                        "name": "Mediterra",
+                        "vintage": "2022",
+                        "price_nok": 900,
+                        "description": "Super Tuscan Blend. Medium acidity, dry, full body. Rich and modern with plush dark fruit, mocha, and smooth tannins."
+                    },
+                    {
+                        "producer": "Isole e Olena",
+                        "name": "Chianti Classico",
+                        "vintage": "2022",
+                        "price_nok": 1250,
+                        "description": "Chianti Classico (Sangiovese). High acidity, dry, medium body. Elegant and traditional with notes of red cherry and dried herbs.",
+                        "grape": "Sangiovese",
+                        "region": "Chianti Classico"
+                    },
+                    {
+                        "producer": "Selvapiana",
+                        "name": "Chianti Rufina Vigneto Erchi",
+                        "vintage": "2019",
+                        "price_nok": 1400,
+                        "description": "Chianti Rufina (Sangiovese). High acidity, dry, medium body. Firm, dusty tannins with notes of tart cherry and cedar.",
+                        "grape": "Sangiovese",
+                        "region": "Chianti Rufina"
+                    },
+                    {
+                        "producer": "Selvapiana",
+                        "name": "Bucerchiale Chianti Rufina Riserva",
+                        "vintage": "2022",
+                        "price_nok": 1250,
+                        "description": "Chianti Rufina (Sangiovese). High acidity, dry, medium body. Firm, dusty tannins with notes of tart cherry and cedar.",
+                        "grape": "Sangiovese",
+                        "region": "Chianti Rufina"
+                    },
+                    {
+                        "producer": "Selvapiana",
+                        "name": "Bucerchiale Chianti Rufina Riserva",
+                        "vintage": "2013",
+                        "price_nok": 2200,
+                        "description": "Chianti Rufina (Sangiovese). High acidity, dry, medium body. Firm, dusty tannins with notes of tart cherry and cedar.",
+                        "grape": "Sangiovese",
+                        "region": "Chianti Rufina"
+                    },
+                    {
+                        "producer": "Querce Bettina",
+                        "name": "Brunello di Montalcino",
+                        "vintage": "2012",
+                        "price_nok": 2100,
+                        "description": "Brunello (Sangiovese). High acidity, dry, full body. Powerful tannins, complex with notes of dried cherry, leather, and tobacco.",
+                        "grape": "Sangiovese",
+                        "region": "Montalcino"
+                    }
+                ]
+            },
+            "international": {
+                "spania": [
+                    {
+                        "region": "Rioja",
+                        "producer": "Remelluri",
+                        "name": "Reserva",
+                        "vintage": "2016",
+                        "price_nok": 1500,
+                        "description": "Rioja (Tempranillo). Medium acidity, dry, full body. Firm tannins, traditional style with notes of dark fruit, dill, and vanilla oak.",
+                        "grape": "Tempranillo Blend"
+                    },
+                    {
+                        "region": "Ribeira Sacra",
+                        "producer": "Castro Candaz",
+                        "name": "Mencía",
+                        "vintage": "2021",
+                        "price_nok": 950,
+                        "description": "Mencía. Medium-high acidity, dry, medium body. Light tannins, fresh and mineral with notes of red berries and crushed rocks.",
+                        "grape": "Mencía"
+                    },
+                    {
+                        "region": "Madrid",
+                        "producer": "Comando G",
+                        "name": "La Bruja",
+                        "vintage": "2021",
+                        "price_nok": 1100,
+                        "description": "Garnacha. High acidity, dry, light-medium body. Ethereal and pale, reminiscent of Pinot Noir, with wild strawberry and herbs.",
+                        "grape": "Garnacha"
+                    },
+                    {
+                        "region": "Catalonia",
+                        "producer": "Herencia Altes",
+                        "name": "La Pilosa",
+                        "vintage": "2021",
+                        "price_nok": 950,
+                        "description": "Garnacha. Medium acidity, dry, medium body. Juicy and fruit-forward with soft tannins and red plum notes.",
+                        "grape": "Garnacha"
+                    }
+                ],
+                "portugal": [
+                    {
+                        "producer": "Corthina Velha",
+                        "name": "Palhete",
+                        "vintage": "2024",
+                        "price_nok": 950,
+                        "description": "Portuguese Red. Medium acidity, dry, medium body. Rustic and authentic with dark fruit and earthy spice."
+                    }
+                ],
+                "germany": [
+                    {
+                        "region": "Pfalz",
+                        "producer": "Weingut Knipser",
+                        "name": "Kalkmergel Spätburgunder",
+                        "vintage": "2018",
+                        "price_nok": 1250,
+                        "description": "Spätburgunder (Pinot Noir). Medium-high acidity, dry, medium body. Elegant oak integration, cherry, and forest floor.",
+                        "grape": "Spätburgunder"
+                    },
+                    {
+                        "region": "Pfalz",
+                        "producer": "Weingut Knipser",
+                        "name": "Kirschgarten Spätburgunder",
+                        "vintage": "2020",
+                        "price_nok": 1990,
+                        "description": "Spätburgunder (Pinot Noir). Medium-high acidity, dry, medium body. Elegant oak integration, cherry, and forest floor.",
+                        "grape": "Spätburgunder"
+                    },
+                    {
+                        "region": "Rheinhessen",
+                        "producer": "Adams Wein",
+                        "name": "Ingelheim Spätburgunder",
+                        "vintage": "2022",
+                        "price_nok": 950,
+                        "description": "Spätburgunder (Pinot Noir). Medium-high acidity, dry, medium body. Pure and precise with crunchy red fruit and fine tannins.",
+                        "grape": "Spätburgunder"
+                    }
+                ],
+                "usa": [
+                    {
+                        "region": "California",
+                        "producer": "Chanin",
+                        "name": "Santa Rita Hills Pinot Noir",
+                        "vintage": "2022",
+                        "price_nok": 1300,
+                        "description": "California Chardonnay. Medium-high acidity, dry, medium-full body. Elegant, Burgundian style with bright fruit and subtle oak.",
+                        "grape": "Pinot Noir"
+                    },
+                    {
+                        "region": "California",
+                        "producer": "Joyce Winery",
+                        "name": "Submarine canyon Pinot Noir",
+                        "vintage": "2023",
+                        "price_nok": 1100,
+                        "description": "California Pinot Noir. Medium acidity, dry, medium body. Bright and juicy with notes of ripe cherry, cola, and spice.",
+                        "grape": "Pinot Noir"
+                    }
+                ]
+            }
+        },
+        "dessert_wine": [
+            {
+                "country": "Frankrike",
+                "region": "Rivesaltes",
+                "name": "Riveyrac vin doux Naturel",
+                "vintage": "1986",
+                "price_nok": 1800,
+                "description": "Vin Doux Naturel. Medium acidity, sweet, full body. Fortified and oxidized with notes of raisin, fig, caramel, and walnut."
+            },
+            {
+                "country": "Italia",
+                "region": "Piemonte",
+                "producer": "Casa Vinicola Marenco",
+                "name": "Brachetto d'Aqui Pineto",
+                "vintage": "2022",
+                "price_nok": 700,
+                "description": "Brachetto. Medium acidity, sweet, light body. Lightly sparkling with intense notes of fresh strawberry and rose petal."
+            },
+            {
+                "country": "Tyskland",
+                "region": "Mosel",
+                "producer": "Selbach-Oster",
+                "name": "Zeltinger Zonnenuhr Auslese",
+                "vintage": "2018",
+                "price_nok": 1250,
+                "description": "Riesling Auslese. High acidity, sweet, medium body. Lush and honeyed with notes of apricot, mango, and offset by vibrant acidity.",
+                "grape": "Riesling"
+            },
+            {
+                "country": "Ungarn",
+                "region": "Tokaj",
+                "producer": "Tokaji Hétszőlő",
+                "name": "Imperial Szamorodni",
+                "vintage": "2020",
+                "price_nok": 1200,
+                "description": "Szamorodni. High acidity, sweet, full body. Complex botrytis notes of marmalade, honey, and dried apricot."
+            }
+        ]
+    }
+}
