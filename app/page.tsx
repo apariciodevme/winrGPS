@@ -76,7 +76,7 @@ export default function Home() {
         <div className="max-w-2xl mx-auto space-y-5">
           <div className="flex items-end justify-between px-1">
             <h1 className="text-[34px] leading-tight font-semibold tracking-tight">
-              Wine Menu
+              Wine Map
             </h1>
             <div className="text-[15px] font-medium text-muted-foreground pb-1">
               {filteredWines.length} items
@@ -221,7 +221,9 @@ function WineCard({ wine, onClick }: { wine: Wine; onClick: () => void }) {
             <div className="flex flex-wrap items-center gap-x-1.5 text-[15px] text-muted-foreground">
               {wine.grape && <span>{wine.grape}</span>}
               {wine.grape && <span>&middot;</span>}
-              {(wine.region || wine.country) && <span>{wine.region || wine.country}</span>}
+              {wine.region && <span>{wine.region}</span>}
+              {wine.region && wine.country && <span>&middot;</span>}
+              {wine.country && <span>{wine.country}</span>}
               {(wine.region || wine.country) && <span>&middot;</span>}
               <span>{wine.vintage}</span>
               {wine.category === "by_the_glass" && (
@@ -286,8 +288,11 @@ function WineModal({ wine, onClose }: { wine: Wine; onClose: () => void }) {
               {wine.grape && (
                 <span className="bg-[#f0f0f2] px-3 py-1 rounded-md">{wine.grape}</span>
               )}
-              {(wine.region || wine.country) && (
-                <span className="bg-[#f0f0f2] px-3 py-1 rounded-md">{wine.region || wine.country}</span>
+              {wine.region && (
+                <span className="bg-[#f0f0f2] px-3 py-1 rounded-md">{wine.region}</span>
+              )}
+              {wine.country && (
+                <span className="bg-[#f0f0f2] px-3 py-1 rounded-md">{wine.country}</span>
               )}
               <span className="bg-[#f0f0f2] px-3 py-1 rounded-md">{wine.vintage}</span>
               <span className="bg-[#f0f0f2] px-3 py-1 rounded-md capitalize">{wine.type}</span>

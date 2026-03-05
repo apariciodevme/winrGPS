@@ -8,7 +8,8 @@
                     "price_nok": 220,
                     "description": "Crisp, dry, and elegant. High acidity with notes of green apple, citrus, and subtle brioche. Light body.",
                     "grape": "Chardonnay, Pinot Noir",
-                    "region": "Bourgogne"
+                    "region": "Bourgogne",
+                    "location": "Fridge 3, Row D, Col 7"
                 },
                 {
                     "name": "Champagne Pierre Peters Blanc de Blancs",
@@ -16,7 +17,8 @@
                     "price_nok": 265,
                     "description": "100% Chardonnay. Razor-sharp acidity, bone dry, light body. Crisp minerality with lemon zest and green apple.",
                     "grape": "Chardonnay",
-                    "region": "Champagne (Côte des Blancs)"
+                    "region": "Champagne (Côte des Blancs)",
+                    "location": "Fridge 2, Row D, Col 5"
                 },
                 {
                     "name": "Stødig Rosésider Eple&Bringebær fra Lien gård (alkoholfri)",
@@ -24,7 +26,8 @@
                     "price_nok": 109,
                     "description": "Non-alcoholic cider. Fresh, fruit-forward with vibrant raspberry and apple notes. Crisp acidity, off-dry.",
                     "grape": "Apple & Raspberry",
-                    "region": "Norway"
+                    "region": "Norway",
+                    "location": "Fridge 4, Row D, Col 8"
                 }
             ],
             "white": [
@@ -34,13 +37,15 @@
                     "price_nok": 155,
                     "description": "Dry Riesling. High bracing acidity, light body. Crisp and aromatic with notes of lime, green apple, and slate.",
                     "grape": "Riesling",
-                    "region": "Pfalz"
+                    "region": "Pfalz",
+                    "location": "Fridge 1, Row A, Col 5"
                 },
                 {
                     "name": "Domaine E. Guigal Côtes du Rhone Blanc",
                     "vintage": "2024",
                     "price_nok": 185,
-                    "description": "Côtes du Rhône Blanc. Low acidity, dry, full body. Rich and aromatic with apricot, honeysuckle, and melon."
+                    "description": "Côtes du Rhône Blanc. Low acidity, dry, full body. Rich and aromatic with apricot, honeysuckle, and melon.",
+                    "location": "Fridge 2, Row B, Col 5"
                 },
                 {
                     "name": "Rafael Palacios Godello",
@@ -48,7 +53,8 @@
                     "price_nok": 220,
                     "description": "Godello. Medium-high acidity, dry, medium-full body. Waxy texture with lemon zest, peach, and crushed rocks.",
                     "grape": "Godello",
-                    "region": "Valdeorras"
+                    "region": "Valdeorras",
+                    "location": "Fridge 4, Row A, Col 6"
                 },
                 {
                     "name": "Francois Carillon Cap au Sud Chardonnay",
@@ -56,14 +62,16 @@
                     "price_nok": 225,
                     "description": "Chardonnay. Medium-high acidity, dry, medium-full body. Elegant oak integration, hazelnut, and citrus.",
                     "grape": "Chardonnay",
-                    "region": "Puligny-Montrachet"
+                    "region": "Puligny-Montrachet",
+                    "location": "Fridge 1, Row A, Col 6"
                 },
                 {
                     "name": "Chavy Chouet Aligoté",
                     "vintage": "2024",
                     "price_nok": 220,
                     "description": "High zesty acidity, light body, bone dry. Crisp green apple, lemon, and a saline finish.",
-                    "grape": "Aligoté"
+                    "grape": "Aligoté",
+                    "location": "Fridge 2, Row B, Col 7"
                 },
                 {
                     "name": "Dominique Lafon Bourgogne Blanc",
@@ -71,7 +79,8 @@
                     "price_nok": 330,
                     "description": "Bourgogne Blanc. Medium-high acidity, dry, medium body. Subtle oak nuance, vibrant orchard fruit, and tension.",
                     "grape": "Chardonnay",
-                    "region": "Meursault"
+                    "region": "Meursault",
+                    "location": "Fridge 1, Row E, Col 2"
                 }
             ],
             "red": [
@@ -79,7 +88,8 @@
                     "name": "Château Camino Salva",
                     "vintage": "2019",
                     "price_nok": 175,
-                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes.",
+                    "location": "Fridge 1, Row E, Col 1"
                 },
                 {
                     "name": "E. Pira di Chiara Boschis Dolcetto Alba",
@@ -87,14 +97,16 @@
                     "price_nok": 210,
                     "description": "Dolcetto/Barolo. High acidity, dry, full body. Powerful tannins (Barolo) or juicy black fruit (Dolcetto).",
                     "grape": "Dolcetto",
-                    "region": "Piemonte (Alba)"
+                    "region": "Piemonte (Alba)",
+                    "location": "Fridge 2, Row C, Col 3"
                 },
                 {
                     "name": "Reynaud Crozes-Hermitage Beaumont",
                     "vintage": "2024",
                     "price_nok": 210,
                     "description": "Crozes-Hermitage (Syrah). Medium-high acidity, dry, medium body. Moderate tannins, notes of blackberry, olive, and black pepper.",
-                    "grape": "Syrah"
+                    "grape": "Syrah",
+                    "location": "Fridge 2, Row E, Col 4"
                 },
                 {
                     "name": "Cavalotto Langhe Nebbiolo",
@@ -102,7 +114,8 @@
                     "price_nok": 265,
                     "description": "Nebbiolo. High acidity, dry, medium-full body. Grippy, formidable tannins with notes of tar, roses, and dried cherry.",
                     "grape": "Nebbiolo",
-                    "region": "Piemonte"
+                    "region": "Piemonte",
+                    "location": "Fridge 1, Row E, Col 7"
                 },
                 {
                     "name": "Glantenay Bourgogne Côte d'Or",
@@ -110,7 +123,8 @@
                     "price_nok": 275,
                     "description": "Pinot Noir. Medium-high acidity, dry, medium body. Fine tannins with notes of red cherry, raspberry, and earth.",
                     "grape": "Pinot Noir",
-                    "region": "Bourgogne"
+                    "region": "Bourgogne",
+                    "location": "Fridge 1, Row F, Col 6"
                 }
             ],
             "sweet": [
@@ -120,7 +134,8 @@
                     "price_nok": 250,
                     "description": "Riesling Auslese. High acidity, sweet, medium body. Lush and honeyed with notes of apricot, mango, and offset by vibrant acidity.",
                     "grape": "Riesling",
-                    "region": "Mosel"
+                    "region": "Mosel",
+                    "location": "Fridge 3, Row F, Col 4"
                 }
             ]
         },
@@ -282,7 +297,9 @@
                     "name": "Culver Classic Cuvée",
                     "vintage": "NV",
                     "price_nok": 1500,
-                    "description": "Classic Cuvée. Crisp acidity, dry, medium-light body. Orchard fruit, biscuit, and a fine mousse."
+                    "description": "Classic Cuvée. Crisp acidity, dry, medium-light body. Orchard fruit, biscuit, and a fine mousse.",
+                    "location": "Fridge 4, Row A, Col 5",
+                    "country": "England"
                 }
             ],
             "france_champagne": [
@@ -292,7 +309,9 @@
                     "name": "Brut Grand Cru",
                     "vintage": "NV",
                     "price_nok": 1500,
-                    "description": "Grand Cru Champagne. High acidity, bone dry, medium body. Complex layers of toasted almond, citrus, and chalk."
+                    "description": "Grand Cru Champagne. High acidity, bone dry, medium body. Complex layers of toasted almond, citrus, and chalk.",
+                    "location": "Fridge 3, Row D, Col 5",
+                    "country": "France"
                 },
                 {
                     "region": "Montage de Reims",
@@ -300,7 +319,9 @@
                     "name": "Oeil de Perdrix",
                     "vintage": "NV",
                     "price_nok": 1300,
-                    "description": "Oeil de Perdrix (Blanc de Noirs). Medium acidity, dry, medium body. Red berry notes with a creamy texture."
+                    "description": "Oeil de Perdrix (Blanc de Noirs). Medium acidity, dry, medium body. Red berry notes with a creamy texture.",
+                    "location": "Fridge 4, Row F, Col 8",
+                    "country": "France"
                 },
                 {
                     "region": "Montage de Reims",
@@ -308,7 +329,9 @@
                     "name": "L'Atavique Verzy Grand Cru Extra Brut",
                     "vintage": "NV",
                     "price_nok": 1450,
-                    "description": "Extra Brut. Very dry, high acidity, medium body. Intense minerality with notes of orchard fruit and toast."
+                    "description": "Extra Brut. Very dry, high acidity, medium body. Intense minerality with notes of orchard fruit and toast.",
+                    "location": "Fridge 2, Row D, Col 6",
+                    "country": "France"
                 },
                 {
                     "region": "Montage de Reims",
@@ -316,7 +339,9 @@
                     "name": "Platine 1er Cru Brut",
                     "vintage": "NV",
                     "price_nok": 1400,
-                    "description": "1er Cru Brut. Crisp acidity, dry, medium body. Rich texture with toasted brioche and ripe apple."
+                    "description": "1er Cru Brut. Crisp acidity, dry, medium body. Rich texture with toasted brioche and ripe apple.",
+                    "location": "Fridge 4, Row F, Col 6",
+                    "country": "France"
                 },
                 {
                     "region": "Côte des Blancs",
@@ -325,7 +350,9 @@
                     "vintage": "NV",
                     "price_nok": 1300,
                     "description": "100% Chardonnay. Razor-sharp acidity, bone dry, light body. Crisp minerality with lemon zest and green apple.",
-                    "grape": "Chardonnay"
+                    "grape": "Chardonnay",
+                    "location": "Fridge 1, Row E, Col 8",
+                    "country": "France"
                 },
                 {
                     "region": "Côte des Blancs",
@@ -334,7 +361,9 @@
                     "vintage": "NV",
                     "price_nok": 3700,
                     "description": "100% Chardonnay. Razor-sharp acidity, bone dry, light body. Crisp minerality with lemon zest and green apple.",
-                    "grape": "Chardonnay"
+                    "grape": "Chardonnay",
+                    "location": "Fridge 2, Row A, Col 4",
+                    "country": "France"
                 },
                 {
                     "region": "Côte des Blancs",
@@ -342,7 +371,9 @@
                     "name": "Grain d'Argile Extra Brut",
                     "vintage": "NV",
                     "price_nok": 1900,
-                    "description": "Extra Brut. Bone dry, high electric acidity. Precise and focused with lemon curd and chalky minerality."
+                    "description": "Extra Brut. Bone dry, high electric acidity. Precise and focused with lemon curd and chalky minerality.",
+                    "location": "Fridge 1, Row F, Col 8",
+                    "country": "France"
                 },
                 {
                     "region": "Côtes de Bar",
@@ -350,7 +381,9 @@
                     "name": "Blanc de Noirs Brut",
                     "vintage": "2018",
                     "price_nok": 1900,
-                    "description": "Blanc de Noirs. Medium-high acidity, dry, medium-full body. Rich red fruit character with a vinous texture."
+                    "description": "Blanc de Noirs. Medium-high acidity, dry, medium-full body. Rich red fruit character with a vinous texture.",
+                    "location": "Fridge 2, Row E, Col 2",
+                    "country": "France"
                 },
                 {
                     "region": "Côtes de Bar",
@@ -359,7 +392,9 @@
                     "vintage": "NV",
                     "price_nok": 1850,
                     "description": "Pinot Blanc. Medium acidity, dry, light-medium body. Floral notes, white peach, and a soft, rounded finish.",
-                    "grape": "Pinot Blanc"
+                    "grape": "Pinot Blanc",
+                    "location": "Fridge 3, Row D, Col 1",
+                    "country": "France"
                 },
                 {
                     "region": "Côtes de Bar",
@@ -367,7 +402,9 @@
                     "name": "Grain de Celles",
                     "vintage": "NV",
                     "price_nok": 1400,
-                    "description": "Dry, crisp acidity, medium body. Expressive aromatics of white flowers and citrus with a mineral core."
+                    "description": "Dry, crisp acidity, medium body. Expressive aromatics of white flowers and citrus with a mineral core.",
+                    "location": "Fridge 2, Row B, Col 4",
+                    "country": "France"
                 },
                 {
                     "region": "Côtes de Bar",
@@ -376,7 +413,9 @@
                     "vintage": "NV",
                     "price_nok": 2500,
                     "description": "Dry, crisp acidity, medium body. Expressive aromatics of white flowers and citrus with a mineral core.",
-                    "grape": "Pinot Noir"
+                    "grape": "Pinot Noir",
+                    "location": "Fridge 4, Row C, Col 3",
+                    "country": "France"
                 },
                 {
                     "region": "Côtes de Bar",
@@ -384,7 +423,9 @@
                     "name": "Grain de Celles Rosé",
                     "vintage": "NV",
                     "price_nok": 2200,
-                    "description": "Dry, crisp acidity, medium body. Expressive aromatics of white flowers and citrus with a mineral core."
+                    "description": "Dry, crisp acidity, medium body. Expressive aromatics of white flowers and citrus with a mineral core.",
+                    "location": "Fridge 3, Row A, Col 3",
+                    "country": "France"
                 },
                 {
                     "region": "Valleé de Marne",
@@ -392,7 +433,9 @@
                     "name": "Zero Brut Nature",
                     "vintage": "NV",
                     "price_nok": 1700,
-                    "description": "Zero Brut Nature. Bone dry, very high acidity, medium body. Austere and precise with lemon peel and flint."
+                    "description": "Zero Brut Nature. Bone dry, very high acidity, medium body. Austere and precise with lemon peel and flint.",
+                    "location": "Fridge 2, Row C, Col 4",
+                    "country": "France"
                 }
             ],
             "other_france": [
@@ -402,7 +445,9 @@
                     "name": "Cremant de Bourgogne Brut",
                     "vintage": "NV",
                     "price_nok": 1000,
-                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes."
+                    "description": "A wonderful selection from our cellar. Ask your sommelier for detailed tasting notes.",
+                    "location": "Fridge 3, Row C, Col 8",
+                    "country": "France"
                 },
                 {
                     "region": "Loire",
@@ -410,7 +455,9 @@
                     "name": "Perle Sauvage Petillant Naturel",
                     "vintage": "NV",
                     "price_nok": 850,
-                    "description": "Pet-Nat. Refreshing acidity, very dry, light body. Hazy and vibrant with notes of pear, green apple, and yeast."
+                    "description": "Pet-Nat. Refreshing acidity, very dry, light body. Hazy and vibrant with notes of pear, green apple, and yeast.",
+                    "location": "Fridge 3, Row D, Col 5",
+                    "country": "France"
                 }
             ],
             "germany": [
@@ -420,7 +467,9 @@
                     "name": "Cuvee No. 103 Brut Nature Sekt",
                     "vintage": "NV",
                     "price_nok": 1400,
-                    "description": "Sekt Brut Nature. Bone dry, high acidity, medium body. Clean and focused with fine bubbles and orchard fruit."
+                    "description": "Sekt Brut Nature. Bone dry, high acidity, medium body. Clean and focused with fine bubbles and orchard fruit.",
+                    "location": "Fridge 2, Row D, Col 8",
+                    "country": "Germany"
                 }
             ],
             "italia": [
@@ -430,7 +479,9 @@
                     "name": "Brut",
                     "vintage": "NV",
                     "price_nok": 1000,
-                    "description": "Trentodoc. High acidity, dry, medium body. Classic method sparkling with notes of golden apple, toast, and yeast."
+                    "description": "Trentodoc. High acidity, dry, medium body. Classic method sparkling with notes of golden apple, toast, and yeast.",
+                    "location": "Fridge 1, Row E, Col 5",
+                    "country": "Italy"
                 },
                 {
                     "region": "Trento",
@@ -438,7 +489,9 @@
                     "name": "Perle Vintage",
                     "vintage": "2018",
                     "price_nok": 1300,
-                    "description": "Trentodoc. High acidity, dry, medium body. Classic method sparkling with notes of golden apple, toast, and yeast."
+                    "description": "Trentodoc. High acidity, dry, medium body. Classic method sparkling with notes of golden apple, toast, and yeast.",
+                    "location": "Fridge 3, Row D, Col 8",
+                    "country": "Italy"
                 }
             ]
         },
@@ -451,7 +504,9 @@
                         "vintage": "2017",
                         "price_nok": 1200,
                         "description": "Bordeaux Blanc. Medium acidity, dry, medium body. Notes of grapefruit, white peach, and a touch of oak.",
-                        "grape": "Bordeaux Blend"
+                        "grape": "Bordeaux Blend",
+                        "location": "Fridge 2, Row F, Col 1",
+                        "country": "France"
                     }
                 ],
                 "bourgogne_chablis": [
@@ -462,7 +517,9 @@
                         "price_nok": 1300,
                         "description": "Chablis. High electric acidity, bone dry, light-medium body. Flinty, steely minerality with green apple and lemon.",
                         "grape": "Chardonnay",
-                        "region": "Chablis"
+                        "region": "Chablis",
+                        "location": "Fridge 4, Row E, Col 4",
+                        "country": "France"
                     },
                     {
                         "producer": "Christian Moreau",
@@ -471,7 +528,9 @@
                         "price_nok": 2100,
                         "description": "Chablis. High electric acidity, bone dry, light-medium body. Flinty, steely minerality with green apple and lemon.",
                         "grape": "Chardonnay",
-                        "region": "Chablis"
+                        "region": "Chablis",
+                        "location": "Fridge 2, Row C, Col 5",
+                        "country": "France"
                     },
                     {
                         "producer": "Christian Moreau",
@@ -480,7 +539,9 @@
                         "price_nok": 3000,
                         "description": "Chablis. High electric acidity, bone dry, light-medium body. Flinty, steely minerality with green apple and lemon.",
                         "grape": "Chardonnay",
-                        "region": "Chablis"
+                        "region": "Chablis",
+                        "location": "Fridge 2, Row F, Col 3",
+                        "country": "France"
                     },
                     {
                         "producer": "Patrick Piuz",
@@ -489,7 +550,9 @@
                         "price_nok": 1400,
                         "description": "Chablis/Auxerre. Crisp high acidity, dry, light body. Pure, un-oaked Chardonnay with citrus and chalky focus.",
                         "grape": "Chardonnay",
-                        "region": "Chablis / Auxerre"
+                        "region": "Chablis / Auxerre",
+                        "location": "Fridge 3, Row A, Col 4",
+                        "country": "France"
                     }
                 ],
                 "bourgogne_other": [
@@ -500,7 +563,9 @@
                         "vintage": "2023",
                         "price_nok": 1200,
                         "description": "Chablis/Auxerre. Crisp high acidity, dry, light body. Pure, un-oaked Chardonnay with citrus and chalky focus.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 3, Row B, Col 5",
+                        "country": "France"
                     },
                     {
                         "category": "Aligoté",
@@ -510,7 +575,9 @@
                         "price_nok": 1200,
                         "description": "Aligoté/Chardonnay. Fresh acidity, dry, medium body. Floral and citrusy with a clean, mineral-driven finish.",
                         "grape": "Aligoté",
-                        "region": "Bourgogne"
+                        "region": "Bourgogne",
+                        "location": "Fridge 2, Row F, Col 3",
+                        "country": "France"
                     },
                     {
                         "category": "Aligoté",
@@ -520,7 +587,9 @@
                         "price_nok": 1100,
                         "description": "Aligoté. High zesty acidity, bone dry, light body. Crisp green apple, lemon, and a saline finish.",
                         "grape": "Aligoté",
-                        "region": "Bourgogne"
+                        "region": "Bourgogne",
+                        "location": "Fridge 3, Row F, Col 7",
+                        "country": "France"
                     },
                     {
                         "category": "Aligoté",
@@ -530,7 +599,9 @@
                         "price_nok": 1600,
                         "description": "Aligoté. High vibrant acidity, dry, light body. Tension-filled with notes of crunchy green apple and lemon zest.",
                         "grape": "Aligoté",
-                        "region": "Bourgogne"
+                        "region": "Bourgogne",
+                        "location": "Fridge 1, Row A, Col 5",
+                        "country": "France"
                     },
                     {
                         "category": "Regional",
@@ -540,7 +611,9 @@
                         "price_nok": 1200,
                         "description": "Pinot Noir. Medium-high acidity, dry, medium body. Crunchy red fruit, light tannins, and a fresh finish.",
                         "grape": "Chardonnay",
-                        "region": "Meursault"
+                        "region": "Meursault",
+                        "location": "Fridge 2, Row D, Col 5",
+                        "country": "France"
                     },
                     {
                         "category": "Regional",
@@ -550,7 +623,9 @@
                         "price_nok": 2400,
                         "description": "Pinot Noir. Medium-high acidity, dry, medium body. Crunchy red fruit, light tannins, and a fresh finish.",
                         "grape": "Chardonnay",
-                        "region": "Meursault"
+                        "region": "Meursault",
+                        "location": "Fridge 4, Row C, Col 7",
+                        "country": "France"
                     },
                     {
                         "category": "Regional",
@@ -560,7 +635,9 @@
                         "price_nok": 1300,
                         "description": "Chardonnay. Racy high acidity, dry, medium body. Mineral-driven with bright lemon and a saline edge.",
                         "grape": "Chardonnay",
-                        "region": "Bourgogne"
+                        "region": "Bourgogne",
+                        "location": "Fridge 2, Row C, Col 7",
+                        "country": "France"
                     },
                     {
                         "category": "Regional",
@@ -570,7 +647,9 @@
                         "price_nok": 1550,
                         "description": "White Burgundy. High acidity, dry, medium body. Elegant, reductive style with matchstick, citrus, and oak.",
                         "grape": "Chardonnay",
-                        "region": "Bourgogne"
+                        "region": "Bourgogne",
+                        "location": "Fridge 4, Row E, Col 2",
+                        "country": "France"
                     },
                     {
                         "category": "Regional",
@@ -580,7 +659,9 @@
                         "price_nok": 1650,
                         "description": "Bourgogne Blanc. Medium-high acidity, dry, medium body. Subtle oak nuance, vibrant orchard fruit, and tension.",
                         "grape": "Chardonnay",
-                        "region": "Meursault"
+                        "region": "Meursault",
+                        "location": "Fridge 2, Row B, Col 4",
+                        "country": "France"
                     },
                     {
                         "category": "Regional",
@@ -590,7 +671,9 @@
                         "price_nok": 1550,
                         "description": "White Burgundy. High acidity, dry, medium body. Tense and precise with notes of white peach and crushed rock.",
                         "grape": "Chardonnay",
-                        "region": "Chassagne-Montrachet"
+                        "region": "Chassagne-Montrachet",
+                        "location": "Fridge 4, Row B, Col 6",
+                        "country": "France"
                     },
                     {
                         "category": "Regional",
@@ -600,7 +683,9 @@
                         "price_nok": 1700,
                         "description": "White Burgundy. High nervous acidity, dry, medium body. Intense minerality, citrus peel, and a long finish.",
                         "grape": "Chardonnay",
-                        "region": "Saint-Aubin"
+                        "region": "Saint-Aubin",
+                        "location": "Fridge 2, Row E, Col 8",
+                        "country": "France"
                     }
                 ],
                 "cote_de_beaune_nuits": [
@@ -611,7 +696,9 @@
                         "vintage": "2022",
                         "price_nok": 1650,
                         "description": "Marsannay Blanc. Medium-high acidity, dry, medium body. Floral aromas with citrus, peach, and a hint of spice.",
-                        "grape": "Pinot Noir"
+                        "grape": "Pinot Noir",
+                        "location": "Fridge 4, Row B, Col 3",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -620,7 +707,9 @@
                         "vintage": "2020",
                         "price_nok": 1295,
                         "description": "White Burgundy. Medium-high acidity, dry, medium body. Complex and textured with orchard fruit and minerality.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 1, Row D, Col 3",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -628,7 +717,9 @@
                         "name": "Monthelie 1er Cru Les Champs Fulliot",
                         "vintage": "2022",
                         "price_nok": 3400,
-                        "description": "White Burgundy. High precise acidity, dry, medium body. Racy and tense with lemon, hazelnut, and flawless balance."
+                        "description": "White Burgundy. High precise acidity, dry, medium body. Racy and tense with lemon, hazelnut, and flawless balance.",
+                        "location": "Fridge 2, Row A, Col 3",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -636,7 +727,9 @@
                         "name": "Auxey-Duresses",
                         "vintage": "2021",
                         "price_nok": 1700,
-                        "description": "White Burgundy. High acidity, dry, medium-full body. Rich yet focused with citrus, toast, and limestone."
+                        "description": "White Burgundy. High acidity, dry, medium-full body. Rich yet focused with citrus, toast, and limestone.",
+                        "location": "Fridge 3, Row E, Col 3",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -645,7 +738,9 @@
                         "vintage": "2022",
                         "price_nok": 4000,
                         "description": "White Burgundy. High acidity, dry, full body. Iconic, complex, and powerful with notes of honey, nuts, and citrus.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 3, Row C, Col 3",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -654,7 +749,9 @@
                         "vintage": "2023",
                         "price_nok": 2250,
                         "description": "Pinot Noir. Medium-high acidity, dry, medium body. Crunchy red fruit, light tannins, and a fresh finish.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 4, Row C, Col 8",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -663,7 +760,9 @@
                         "vintage": "2022",
                         "price_nok": 2500,
                         "description": "Pinot Noir. Medium-high acidity, dry, medium body. Crunchy red fruit, light tannins, and a fresh finish.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 1, Row B, Col 6",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -672,7 +771,9 @@
                         "vintage": "2021",
                         "price_nok": 2500,
                         "description": "Meursault. Medium-high acidity, dry, medium-full body. Rich and buttery yet mineral-driven with hazelnut.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 4, Row F, Col 8",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -681,7 +782,9 @@
                         "vintage": "2022",
                         "price_nok": 5500,
                         "description": "White Burgundy. High precise acidity, dry, medium body. Racy and tense with lemon, hazelnut, and flawless balance.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 2, Row B, Col 6",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -690,7 +793,9 @@
                         "vintage": "2022",
                         "price_nok": 7900,
                         "description": "Meursault. High acidity, dry, full body. Reductive and taut in youth, unfurling to rich hazelnut and citrus.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 4, Row F, Col 3",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -699,7 +804,9 @@
                         "vintage": "2020",
                         "price_nok": 3500,
                         "description": "Chardonnay. Medium-high acidity, dry, medium-full body. Elegant oak integration, hazelnut, and citrus.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 3, Row B, Col 8",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -708,7 +815,9 @@
                         "vintage": "2022",
                         "price_nok": 2750,
                         "description": "Meursault. Medium acidity, dry, full body. Classic rich Meursault with buttery, nutty, and baked apple notes.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 1, Row D, Col 6",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -717,7 +826,9 @@
                         "vintage": "2020",
                         "price_nok": 4200,
                         "description": "Bourgogne Blanc. Medium-high acidity, dry, medium body. Subtle oak nuance, vibrant orchard fruit, and tension.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 1, Row F, Col 2",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -726,7 +837,9 @@
                         "vintage": "2020",
                         "price_nok": 5500,
                         "description": "Puligny-Montrachet. High acidity, dry, medium-full body. Elegant and floral with precise minerality.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 2, Row C, Col 4",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -735,7 +848,9 @@
                         "vintage": "2022",
                         "price_nok": 3600,
                         "description": "Chassagne-Montrachet. High acidity, dry, medium-full body. Powerful and concentrated with ripe pear and toast.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 3, Row A, Col 1",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -744,7 +859,9 @@
                         "vintage": "2022",
                         "price_nok": 2300,
                         "description": "Aligoté/Chardonnay. Fresh acidity, dry, medium body. Floral and citrusy with a clean, mineral-driven finish.",
-                        "grape": "Aligoté"
+                        "grape": "Aligoté",
+                        "location": "Fridge 4, Row E, Col 1",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -753,7 +870,9 @@
                         "vintage": "2023",
                         "price_nok": 1990,
                         "description": "Chassagne-Montrachet. Medium-high acidity, dry, full body. Broad and rich with notes of apricot and hazelnut.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 2, Row B, Col 4",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -762,7 +881,9 @@
                         "vintage": "2023",
                         "price_nok": 2800,
                         "description": "Chassagne-Montrachet. Medium-high acidity, dry, full body. Broad and rich with notes of apricot and hazelnut.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 3, Row D, Col 5",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -771,7 +892,9 @@
                         "vintage": "2022",
                         "price_nok": 3900,
                         "description": "Chassagne-Montrachet. Medium-high acidity, dry, full body. Opulent and textured with layers of fruit and oak.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 1, Row F, Col 2",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -780,7 +903,9 @@
                         "vintage": "2022",
                         "price_nok": 2600,
                         "description": "Chassagne-Montrachet. Medium-high acidity, dry, full body. Opulent and textured with layers of fruit and oak.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 4, Row F, Col 2",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -789,7 +914,9 @@
                         "vintage": "2022",
                         "price_nok": 3700,
                         "description": "Chassagne-Montrachet. Medium-high acidity, dry, full body. Opulent and textured with layers of fruit and oak.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 1, Row A, Col 6",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -798,7 +925,9 @@
                         "vintage": "2022",
                         "price_nok": 2700,
                         "description": "Chassagne-Montrachet. High acidity, dry, medium-full body. Elegant, pure, and mineral-driven with tension.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 4, Row B, Col 6",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -807,7 +936,9 @@
                         "vintage": "2022",
                         "price_nok": 5000,
                         "description": "Chassagne-Montrachet. High acidity, dry, medium body. Racy, focused, and steely with citrus and crushed rocks.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 2, Row D, Col 4",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -816,7 +947,9 @@
                         "vintage": "2022",
                         "price_nok": 3300,
                         "description": "Chassagne-Montrachet. High acidity, dry, medium body. Racy, focused, and steely with citrus and crushed rocks.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 1, Row C, Col 1",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -825,7 +958,9 @@
                         "vintage": "2022",
                         "price_nok": 3000,
                         "description": "White Burgundy. High nervous acidity, dry, medium body. Intense minerality, citrus peel, and a long finish.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 2, Row E, Col 6",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -834,7 +969,9 @@
                         "vintage": "2022",
                         "price_nok": 4700,
                         "description": "White Burgundy. High nervous acidity, dry, medium body. Intense minerality, citrus peel, and a long finish.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 3, Row E, Col 8",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -843,7 +980,9 @@
                         "vintage": "2022",
                         "price_nok": 3600,
                         "description": "White Burgundy. High nervous acidity, dry, medium body. Intense minerality, citrus peel, and a long finish.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 3, Row F, Col 7",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -852,7 +991,9 @@
                         "vintage": "2022",
                         "price_nok": 9500,
                         "description": "White Burgundy. High nervous acidity, dry, medium body. Intense minerality, citrus peel, and a long finish.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 1, Row A, Col 4",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -861,7 +1002,9 @@
                         "vintage": "2022",
                         "price_nok": 3600,
                         "description": "White Burgundy. High nervous acidity, dry, medium body. Intense minerality, citrus peel, and a long finish.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 1, Row D, Col 6",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -870,7 +1013,9 @@
                         "vintage": "2024",
                         "price_nok": 1650,
                         "description": "Saint-Aubin. High acidity, dry, medium body. Tense and mineral with notes of green apple and lemon.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 2, Row C, Col 8",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -879,7 +1024,9 @@
                         "vintage": "2024",
                         "price_nok": 2000,
                         "description": "Saint-Aubin. High acidity, dry, medium body. Tense and mineral with notes of green apple and lemon.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 4, Row D, Col 4",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -888,7 +1035,9 @@
                         "vintage": "2024",
                         "price_nok": 2300,
                         "description": "Saint-Aubin. High acidity, dry, medium body. Tense and mineral with notes of green apple and lemon.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 3, Row A, Col 6",
+                        "country": "France"
                     },
                     {
                         "region": "Beaune",
@@ -897,7 +1046,9 @@
                         "vintage": "2021",
                         "price_nok": 4500,
                         "description": "White Burgundy. High acidity, dry, medium body. Elegant, reductive style with matchstick, citrus, and oak.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 1, Row C, Col 6",
+                        "country": "France"
                     }
                 ],
                 "maconnais": [
@@ -908,21 +1059,27 @@
                         "price_nok": 1450,
                         "description": "Mâconnais. Medium acidity, dry, medium-full body. Ripe tropical fruit, peach, and a rounded mouthfeel.",
                         "grape": "Chardonnay",
-                        "region": "Mâconnais"
+                        "region": "Mâconnais",
+                        "location": "Fridge 1, Row C, Col 2",
+                        "country": "France"
                     },
                     {
                         "producer": "Domaine Leflaive",
                         "name": "Macon-Verzé",
                         "vintage": "2022",
                         "price_nok": 1800,
-                        "description": "White Burgundy. High acidity, dry, full body. Iconic, complex, and powerful with notes of honey, nuts, and citrus."
+                        "description": "White Burgundy. High acidity, dry, full body. Iconic, complex, and powerful with notes of honey, nuts, and citrus.",
+                        "location": "Fridge 4, Row B, Col 2",
+                        "country": "France"
                     },
                     {
                         "producer": "Domaine Leflaive",
                         "name": "Pouilly-Fuisse",
                         "vintage": "2023",
                         "price_nok": 3000,
-                        "description": "White Burgundy. High acidity, dry, full body. Iconic, complex, and powerful with notes of honey, nuts, and citrus."
+                        "description": "White Burgundy. High acidity, dry, full body. Iconic, complex, and powerful with notes of honey, nuts, and citrus.",
+                        "location": "Fridge 2, Row B, Col 4",
+                        "country": "France"
                     },
                     {
                         "producer": "Simon Faure",
@@ -931,7 +1088,9 @@
                         "price_nok": 1550,
                         "description": "Mâconnais. Medium-high acidity, dry, medium body. Vibrant and fruity with citrus, melon, and floral notes.",
                         "grape": "Chardonnay",
-                        "region": "Mâconnais"
+                        "region": "Mâconnais",
+                        "location": "Fridge 2, Row F, Col 4",
+                        "country": "France"
                     },
                     {
                         "producer": "Simon Faure",
@@ -940,7 +1099,9 @@
                         "price_nok": 1200,
                         "description": "Mâconnais. Medium-high acidity, dry, medium body. Vibrant and fruity with citrus, melon, and floral notes.",
                         "grape": "Chardonnay",
-                        "region": "Mâconnais"
+                        "region": "Mâconnais",
+                        "location": "Fridge 3, Row E, Col 3",
+                        "country": "France"
                     }
                 ],
                 "jura": [
@@ -951,7 +1112,9 @@
                         "price_nok": 850,
                         "description": "Jura Chardonnay. High electric acidity, dry, medium body. Oxidative hint with notes of bruised apple and hazelnut.",
                         "grape": "Chardonnay",
-                        "region": "Jura"
+                        "region": "Jura",
+                        "location": "Fridge 4, Row F, Col 2",
+                        "country": "France"
                     },
                     {
                         "producer": "Montbourgeau",
@@ -960,7 +1123,9 @@
                         "price_nok": 1200,
                         "description": "L'Étoile. High acidity, dry, medium body. Classic Jura style, slightly oxidative with walnut and flor notes.",
                         "grape": "Chardonnay",
-                        "region": "Jura"
+                        "region": "Jura",
+                        "location": "Fridge 4, Row D, Col 2",
+                        "country": "France"
                     },
                     {
                         "producer": "Domaine du Pelican",
@@ -969,7 +1134,9 @@
                         "price_nok": 1500,
                         "description": "Arbois Chardonnay. High acidity, dry, medium body. Pristine and reductive with lemon peel and flint.",
                         "grape": "Chardonnay",
-                        "region": "Arbois (Jura)"
+                        "region": "Arbois (Jura)",
+                        "location": "Fridge 4, Row A, Col 7",
+                        "country": "France"
                     }
                 ],
                 "loire": [
@@ -980,7 +1147,9 @@
                         "price_nok": 1000,
                         "description": "Saumur Blanc (Chenin Blanc). High acidity, dry, medium body. Notes of quince, wet wool, and chamomile.",
                         "grape": "Chenin Blanc",
-                        "region": "Saumur"
+                        "region": "Saumur",
+                        "location": "Fridge 4, Row D, Col 4",
+                        "country": "France"
                     },
                     {
                         "producer": "Gérard Bouley",
@@ -989,7 +1158,9 @@
                         "price_nok": 1300,
                         "description": "Sancerre (Sauvignon Blanc). High racy acidity, bone dry, light body. Grassy, flinty, with gooseberry and citrus.",
                         "grape": "Sauvignon Blanc",
-                        "region": "Sancerre"
+                        "region": "Sancerre",
+                        "location": "Fridge 4, Row A, Col 7",
+                        "country": "France"
                     },
                     {
                         "producer": "Jerome Bretaudeau",
@@ -998,7 +1169,9 @@
                         "price_nok": 1100,
                         "description": "Muscadet. High acidity, bone dry, light body. Saline and crisp with notes of lemon, sea spray, and lees.",
                         "grape": "Melon de Bourgogne",
-                        "region": "Muscadet"
+                        "region": "Muscadet",
+                        "location": "Fridge 2, Row C, Col 4",
+                        "country": "France"
                     },
                     {
                         "producer": "Dom. A. Cailbourdin",
@@ -1007,7 +1180,9 @@
                         "price_nok": 1300,
                         "description": "Pouilly-Fumé. High acidity, dry, light-medium body. Smoky flint, grapefruit, and herbaceous notes.",
                         "grape": "Sauvignon Blanc",
-                        "region": "Pouilly-Fumé"
+                        "region": "Pouilly-Fumé",
+                        "location": "Fridge 1, Row F, Col 2",
+                        "country": "France"
                     }
                 ],
                 "rhone": [
@@ -1018,14 +1193,18 @@
                         "price_nok": 1250,
                         "description": "Northern Rhône Syrah. Medium-high acidity, dry, medium body. Supple tannins, biodynamic, with vibrant blackberry and pepper.",
                         "grape": "Syrah",
-                        "region": "Rhône"
+                        "region": "Rhône",
+                        "location": "Fridge 2, Row E, Col 2",
+                        "country": "France"
                     },
                     {
                         "producer": "Domaine E. Guigal",
                         "name": "Côtes du Rhone Blanc",
                         "vintage": "2024",
                         "price_nok": 845,
-                        "description": "Côtes du Rhône Blanc. Low acidity, dry, full body. Rich and aromatic with apricot, honeysuckle, and melon."
+                        "description": "Côtes du Rhône Blanc. Low acidity, dry, full body. Rich and aromatic with apricot, honeysuckle, and melon.",
+                        "location": "Fridge 1, Row E, Col 4",
+                        "country": "France"
                     }
                 ],
                 "languedoc": [
@@ -1036,7 +1215,9 @@
                         "price_nok": 1050,
                         "description": "Chardonnay. Medium-high acidity, dry, medium-full body. Elegant oak integration, hazelnut, and citrus.",
                         "grape": "Chardonnay",
-                        "region": "Puligny-Montrachet"
+                        "region": "Puligny-Montrachet",
+                        "location": "Fridge 4, Row A, Col 4",
+                        "country": "France"
                     }
                 ]
             },
@@ -1049,7 +1230,9 @@
                         "price_nok": 1500,
                         "description": "English Chardonnay. High acidity, dry, medium body. Crisp and elegant with notes of green apple and subtle oak.",
                         "grape": "Chardonnay",
-                        "region": "England"
+                        "region": "England",
+                        "location": "Fridge 1, Row F, Col 1",
+                        "country": "England"
                     }
                 ],
                 "italia": [
@@ -1060,7 +1243,9 @@
                         "vintage": "2020",
                         "price_nok": 1200,
                         "description": "Trentino Chardonnay. Medium-high acidity, dry, medium body. Clean and fruity with notes of apple and white peach.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 4, Row C, Col 3",
+                        "country": "Italy"
                     },
                     {
                         "region": "Sicilia",
@@ -1069,7 +1254,9 @@
                         "vintage": "2023",
                         "price_nok": 1100,
                         "description": "Etna Bianco. High acidity, bone dry, medium body. Intense volcanic minerality with notes of lemon and sea salt.",
-                        "grape": "Carricante"
+                        "grape": "Carricante",
+                        "location": "Fridge 4, Row B, Col 6",
+                        "country": "Italy"
                     }
                 ],
                 "spania": [
@@ -1080,7 +1267,9 @@
                         "vintage": "2023",
                         "price_nok": 1000,
                         "description": "Godello. Medium-high acidity, dry, medium-full body. Waxy texture with lemon zest, peach, and crushed rocks.",
-                        "grape": "Godello"
+                        "grape": "Godello",
+                        "location": "Fridge 3, Row A, Col 1",
+                        "country": null
                     },
                     {
                         "region": "Valdeorras",
@@ -1089,7 +1278,9 @@
                         "vintage": "2022",
                         "price_nok": 1800,
                         "description": "Godello. Medium-high acidity, dry, medium-full body. Waxy texture with lemon zest, peach, and crushed rocks.",
-                        "grape": "Godello"
+                        "grape": "Godello",
+                        "location": "Fridge 4, Row E, Col 4",
+                        "country": null
                     },
                     {
                         "region": "Penedes",
@@ -1098,7 +1289,9 @@
                         "vintage": "2020",
                         "price_nok": 900,
                         "description": "Xarel-lo. High acidity, dry, medium body. Textured with skin contact, notes of fennel, citrus, and herbs.",
-                        "grape": "Xarel-lo"
+                        "grape": "Xarel-lo",
+                        "location": "Fridge 2, Row C, Col 1",
+                        "country": null
                     }
                 ],
                 "germany": [
@@ -1109,7 +1302,9 @@
                         "vintage": "2023",
                         "price_nok": 750,
                         "description": "Mosel Riesling. Very high acidity, dry, light-medium body. Intense slate minerality, lime, and white peach.",
-                        "grape": "Riesling"
+                        "grape": "Riesling",
+                        "location": "Fridge 1, Row B, Col 5",
+                        "country": "Germany"
                     },
                     {
                         "region": "Mosel",
@@ -1118,7 +1313,9 @@
                         "vintage": "2022",
                         "price_nok": 1650,
                         "description": "Mosel Riesling. Very high acidity, dry, light-medium body. Intense slate minerality, lime, and white peach.",
-                        "grape": "Riesling"
+                        "grape": "Riesling",
+                        "location": "Fridge 4, Row C, Col 5",
+                        "country": "Germany"
                     },
                     {
                         "region": "Nahe",
@@ -1127,7 +1324,9 @@
                         "vintage": "2023",
                         "price_nok": 900,
                         "description": "Nahe Riesling. High elegant acidity, dry, medium body. Pristine and pure with notes of citrus, flint, and apricot.",
-                        "grape": "Riesling"
+                        "grape": "Riesling",
+                        "location": "Fridge 2, Row A, Col 5",
+                        "country": "Germany"
                     },
                     {
                         "region": "Nahe",
@@ -1136,7 +1335,9 @@
                         "vintage": "2023",
                         "price_nok": 1400,
                         "description": "Nahe Riesling. High elegant acidity, dry, medium body. Pristine and pure with notes of citrus, flint, and apricot.",
-                        "grape": "Riesling"
+                        "grape": "Riesling",
+                        "location": "Fridge 1, Row A, Col 8",
+                        "country": "Germany"
                     },
                     {
                         "region": "Nahe",
@@ -1145,7 +1346,9 @@
                         "vintage": "2022",
                         "price_nok": 2500,
                         "description": "Nahe Riesling. Extreme high acidity, dry, medium body. Spontaneous fermentation notes, flint, and intense citrus.",
-                        "grape": "Riesling"
+                        "grape": "Riesling",
+                        "location": "Fridge 4, Row D, Col 1",
+                        "country": "Germany"
                     },
                     {
                         "region": "Nahe",
@@ -1154,7 +1357,9 @@
                         "vintage": "2022",
                         "price_nok": 2650,
                         "description": "Nahe Riesling. Extreme high acidity, dry, medium body. Spontaneous fermentation notes, flint, and intense citrus.",
-                        "grape": "Riesling"
+                        "grape": "Riesling",
+                        "location": "Fridge 4, Row A, Col 5",
+                        "country": "Germany"
                     },
                     {
                         "region": "Pfalz",
@@ -1163,7 +1368,9 @@
                         "vintage": "2024",
                         "price_nok": 700,
                         "description": "Dry Riesling. High bracing acidity, light body. Crisp and aromatic with notes of lime, green apple, and slate.",
-                        "grape": "Riesling"
+                        "grape": "Riesling",
+                        "location": "Fridge 3, Row F, Col 3",
+                        "country": "Germany"
                     },
                     {
                         "region": "Pfalz",
@@ -1172,7 +1379,9 @@
                         "vintage": "2023",
                         "price_nok": 1700,
                         "description": "Dry Riesling. High bracing acidity, light body. Crisp and aromatic with notes of lime, green apple, and slate.",
-                        "grape": "Riesling"
+                        "grape": "Riesling",
+                        "location": "Fridge 2, Row C, Col 4",
+                        "country": "Germany"
                     },
                     {
                         "region": "Pfalz",
@@ -1181,7 +1390,9 @@
                         "vintage": "2017",
                         "price_nok": 995,
                         "description": "Pfalz Riesling. High acidity, dry, medium-full body. Powerful and structured with ripe peach and earthy minerality.",
-                        "grape": "Riesling"
+                        "grape": "Riesling",
+                        "location": "Fridge 3, Row D, Col 7",
+                        "country": "Germany"
                     },
                     {
                         "region": "Pfalz",
@@ -1190,7 +1401,9 @@
                         "vintage": "2023",
                         "price_nok": 1000,
                         "description": "Pfalz Riesling. High acidity, dry, medium body. Juicy and fruit-forward with notes of nectarine and citrus.",
-                        "grape": "Riesling"
+                        "grape": "Riesling",
+                        "location": "Fridge 1, Row A, Col 6",
+                        "country": "Germany"
                     }
                 ],
                 "usa": [
@@ -1201,7 +1414,9 @@
                         "vintage": "2022",
                         "price_nok": 1400,
                         "description": "California Chardonnay. Medium-high acidity, dry, medium-full body. Elegant, Burgundian style with bright fruit and subtle oak.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 2, Row B, Col 1",
+                        "country": "USA"
                     },
                     {
                         "region": "California",
@@ -1210,7 +1425,9 @@
                         "vintage": "2022",
                         "price_nok": 1400,
                         "description": "California Chardonnay. High acidity, dry, medium body. Tense and saline with notes of lemon rind and crushed shells.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 2, Row A, Col 4",
+                        "country": "USA"
                     }
                 ]
             }
@@ -1221,7 +1438,9 @@
                 "name": "Miraval Rosé",
                 "vintage": "2024",
                 "price_nok": 1100,
-                "description": "Rosé. Medium-high acidity, dry, light-medium body. Crisp and pale with notes of wild strawberry, peach, and white flowers."
+                "description": "Rosé. Medium-high acidity, dry, light-medium body. Crisp and pale with notes of wild strawberry, peach, and white flowers.",
+                "location": "Fridge 3, Row E, Col 5",
+                "country": "France"
             }
         ],
         "bottles_red": {
@@ -1234,7 +1453,9 @@
                         "vintage": "2019",
                         "price_nok": 850,
                         "description": "Bordeaux Blend. Medium acidity, dry, medium-full body. Firm tannins with notes of cassis, cedar, and graphite.",
-                        "grape": "Bordeaux Blend"
+                        "grape": "Bordeaux Blend",
+                        "location": "Fridge 3, Row A, Col 7",
+                        "country": "France"
                     },
                     {
                         "region": "Saint-Julien",
@@ -1243,7 +1464,9 @@
                         "vintage": "2014",
                         "price_nok": 1100,
                         "description": "Bordeaux Blend. Medium acidity, dry, medium-full body. Resolved tannins with mature notes of leather, tobacco, and plum.",
-                        "grape": "Bordeaux Blend"
+                        "grape": "Bordeaux Blend",
+                        "location": "Fridge 4, Row D, Col 3",
+                        "country": "France"
                     },
                     {
                         "region": "Saint-Julien",
@@ -1252,7 +1475,9 @@
                         "vintage": "2019",
                         "price_nok": 1350,
                         "description": "Bordeaux Blend. Medium acidity, dry, full body. Silky tannins with concentrated blackberry and spice.",
-                        "grape": "Bordeaux Blend"
+                        "grape": "Bordeaux Blend",
+                        "location": "Fridge 2, Row B, Col 4",
+                        "country": "France"
                     }
                 ],
                 "bourgogne_regional": [
@@ -1263,7 +1488,9 @@
                         "price_nok": 1250,
                         "description": "Pinot Noir. Medium-high acidity, dry, medium body. Crunchy red fruit, light tannins, and a fresh finish.",
                         "grape": "Chardonnay",
-                        "region": "Meursault"
+                        "region": "Meursault",
+                        "location": "Fridge 1, Row C, Col 1",
+                        "country": "France"
                     },
                     {
                         "producer": "Domaine Chavy-Chouet",
@@ -1272,7 +1499,9 @@
                         "price_nok": 2400,
                         "description": "Pinot Noir. Medium-high acidity, dry, medium body. Crunchy red fruit, light tannins, and a fresh finish.",
                         "grape": "Chardonnay",
-                        "region": "Meursault"
+                        "region": "Meursault",
+                        "location": "Fridge 3, Row A, Col 2",
+                        "country": "France"
                     },
                     {
                         "producer": "Georges Glantenay",
@@ -1281,7 +1510,9 @@
                         "price_nok": 1250,
                         "description": "Pinot Noir. Medium-high acidity, dry, medium body. Fine tannins with notes of red cherry, raspberry, and earth.",
                         "grape": "Pinot Noir",
-                        "region": "Bourgogne"
+                        "region": "Bourgogne",
+                        "location": "Fridge 2, Row E, Col 6",
+                        "country": "France"
                     },
                     {
                         "producer": "Domaine Dureuil-Janthial",
@@ -1290,7 +1521,9 @@
                         "price_nok": 1200,
                         "description": "Rully Rouge. Medium-high acidity, dry, medium body. Supple tannins with notes of wild strawberry and spice.",
                         "grape": "Pinot Noir",
-                        "region": "Rully"
+                        "region": "Rully",
+                        "location": "Fridge 3, Row D, Col 3",
+                        "country": "France"
                     },
                     {
                         "producer": "Jeremy Arnaud",
@@ -1299,7 +1532,9 @@
                         "price_nok": 1200,
                         "description": "Chardonnay. Racy high acidity, dry, medium body. Mineral-driven with bright lemon and a saline edge.",
                         "grape": "Chardonnay",
-                        "region": "Bourgogne"
+                        "region": "Bourgogne",
+                        "location": "Fridge 4, Row A, Col 3",
+                        "country": "France"
                     },
                     {
                         "producer": "Domaine Lucien Muzard & Fils",
@@ -1308,7 +1543,9 @@
                         "price_nok": 1250,
                         "description": "Pinot Noir. Medium-high acidity, dry, medium body. Earthy and structured with dark cherry and fine tannins.",
                         "grape": "Pinot Noir",
-                        "region": "Bourgogne"
+                        "region": "Bourgogne",
+                        "location": "Fridge 4, Row B, Col 2",
+                        "country": "France"
                     },
                     {
                         "producer": "Domaine de Montille",
@@ -1317,7 +1554,9 @@
                         "price_nok": 1500,
                         "description": "White Burgundy. High acidity, dry, medium body. Elegant, reductive style with matchstick, citrus, and oak.",
                         "grape": "Chardonnay",
-                        "region": "Bourgogne"
+                        "region": "Bourgogne",
+                        "location": "Fridge 1, Row B, Col 6",
+                        "country": "France"
                     },
                     {
                         "producer": "Oliver Merlin",
@@ -1326,7 +1565,9 @@
                         "price_nok": 1250,
                         "description": "Pinot Noir. Medium-high acidity, dry, medium body. Juicy and approachable with bright red fruit and soft tannins.",
                         "grape": "Pinot Noir",
-                        "region": "Bourgogne"
+                        "region": "Bourgogne",
+                        "location": "Fridge 4, Row C, Col 4",
+                        "country": "France"
                     },
                     {
                         "producer": "Domaine Sirugue",
@@ -1335,7 +1576,9 @@
                         "price_nok": 1400,
                         "description": "Marsannay Blanc. Medium-high acidity, dry, medium body. Floral aromas with citrus, peach, and a hint of spice.",
                         "grape": "Pinot Noir",
-                        "region": "Bourgogne"
+                        "region": "Bourgogne",
+                        "location": "Fridge 2, Row E, Col 7",
+                        "country": "France"
                     },
                     {
                         "producer": "Domaine de Cassiopee",
@@ -1344,7 +1587,9 @@
                         "price_nok": 1650,
                         "description": "Pinot Noir. High acidity, dry, medium body. Tense and vibrant with crunchy red fruit and floral notes.",
                         "grape": "Pinot Noir",
-                        "region": "Bourgogne"
+                        "region": "Bourgogne",
+                        "location": "Fridge 4, Row D, Col 6",
+                        "country": "France"
                     }
                 ],
                 "bourgogne_village_cru": [
@@ -1354,7 +1599,9 @@
                         "name": "Marsannay Les Quartiers",
                         "vintage": "2021",
                         "price_nok": 1600,
-                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Classic forest floor, cherry, and silky tannins."
+                        "description": "Pinot Noir. Medium-high acidity, dry, medium body. Classic forest floor, cherry, and silky tannins.",
+                        "location": "Fridge 3, Row D, Col 3",
+                        "country": "France"
                     },
                     {
                         "region": "Côte de Nuits",
@@ -1363,7 +1610,9 @@
                         "vintage": "2021",
                         "price_nok": 3600,
                         "description": "Pinot Noir. Medium-high acidity, dry, medium body. Perfumed and elegant with notes of violet, spice, and red fruit.",
-                        "grape": "Pinot Noir"
+                        "grape": "Pinot Noir",
+                        "location": "Fridge 1, Row E, Col 4",
+                        "country": "France"
                     },
                     {
                         "region": "Côte de Nuits",
@@ -1372,7 +1621,9 @@
                         "vintage": "2021",
                         "price_nok": 2300,
                         "description": "Pinot Noir. Medium-high acidity, dry, medium body. Structured and earthy with dark fruit and fine tannins.",
-                        "grape": "Pinot Noir"
+                        "grape": "Pinot Noir",
+                        "location": "Fridge 4, Row F, Col 8",
+                        "country": "France"
                     },
                     {
                         "region": "Côte de Nuits",
@@ -1381,7 +1632,9 @@
                         "vintage": "2022",
                         "price_nok": 2700,
                         "description": "Pinot Noir. Medium-high acidity, dry, medium body. Plush and textured with rich black cherry and spice.",
-                        "grape": "Pinot Noir"
+                        "grape": "Pinot Noir",
+                        "location": "Fridge 1, Row F, Col 6",
+                        "country": "France"
                     },
                     {
                         "region": "Côte de Nuits",
@@ -1390,7 +1643,9 @@
                         "vintage": "2022",
                         "price_nok": 4200,
                         "description": "Pinot Noir. Medium-high acidity, dry, medium-full body. Iconic, structured, and complex with intense floral and fruit notes.",
-                        "grape": "Pinot Noir"
+                        "grape": "Pinot Noir",
+                        "location": "Fridge 1, Row B, Col 7",
+                        "country": "France"
                     },
                     {
                         "region": "Côte de Nuits",
@@ -1399,7 +1654,9 @@
                         "vintage": "2021",
                         "price_nok": 2300,
                         "description": "Pinot Noir. Medium-high acidity, dry, medium-full body. Earthy, structured Gevrey with firm tannins and dark fruit.",
-                        "grape": "Pinot Noir"
+                        "grape": "Pinot Noir",
+                        "location": "Fridge 1, Row E, Col 7",
+                        "country": "France"
                     },
                     {
                         "region": "Côte de Nuits",
@@ -1408,7 +1665,9 @@
                         "vintage": "2021",
                         "price_nok": 3500,
                         "description": "Pinot Noir. Medium-high acidity, dry, medium body. Incredibly elegant and perfumed with silky tannins and pure red fruit.",
-                        "grape": "Pinot Noir"
+                        "grape": "Pinot Noir",
+                        "location": "Fridge 1, Row E, Col 5",
+                        "country": "France"
                     },
                     {
                         "region": "Côte de Nuits",
@@ -1417,7 +1676,9 @@
                         "vintage": "2022",
                         "price_nok": 3500,
                         "description": "Pinot Noir. Medium-high acidity, dry, medium body. Incredibly elegant and perfumed with silky tannins and pure red fruit.",
-                        "grape": "Pinot Noir"
+                        "grape": "Pinot Noir",
+                        "location": "Fridge 1, Row A, Col 4",
+                        "country": "France"
                     },
                     {
                         "region": "Côte de Nuits",
@@ -1426,7 +1687,9 @@
                         "vintage": "2022",
                         "price_nok": 7000,
                         "description": "Pinot Noir Grand Cru. Medium-high acidity, dry, full body. Powerful and structured with dark fruit, earth, and firm tannins.",
-                        "grape": "Pinot Noir"
+                        "grape": "Pinot Noir",
+                        "location": "Fridge 1, Row F, Col 8",
+                        "country": "France"
                     },
                     {
                         "region": "Côte de Nuits",
@@ -1435,7 +1698,9 @@
                         "vintage": "2022",
                         "price_nok": 7000,
                         "description": "Pinot Noir Grand Cru. Medium-high acidity, dry, full body. Powerful and structured with dark fruit, earth, and firm tannins.",
-                        "grape": "Pinot Noir"
+                        "grape": "Pinot Noir",
+                        "location": "Fridge 1, Row F, Col 1",
+                        "country": "France"
                     },
                     {
                         "region": "Côte de Beaune",
@@ -1444,7 +1709,9 @@
                         "vintage": "2022",
                         "price_nok": 1900,
                         "description": "Pinot Noir. Medium-high acidity, dry, medium body. Fine tannins with notes of red cherry, raspberry, and earth.",
-                        "grape": "Pinot Noir"
+                        "grape": "Pinot Noir",
+                        "location": "Fridge 3, Row F, Col 2",
+                        "country": "France"
                     },
                     {
                         "region": "Côte de Beaune",
@@ -1453,7 +1720,9 @@
                         "vintage": "2022",
                         "price_nok": 1900,
                         "description": "Pinot Noir. Medium-high acidity, dry, medium body. Fine tannins with notes of red cherry, raspberry, and earth.",
-                        "grape": "Pinot Noir"
+                        "grape": "Pinot Noir",
+                        "location": "Fridge 1, Row E, Col 4",
+                        "country": "France"
                     },
                     {
                         "region": "Côte de Beaune",
@@ -1462,7 +1731,9 @@
                         "vintage": "2023",
                         "price_nok": 1800,
                         "description": "Pinot Noir. Medium-high acidity, dry, medium body. Approachable and pure with notes of red cherry and spice.",
-                        "grape": "Pinot Noir"
+                        "grape": "Pinot Noir",
+                        "location": "Fridge 2, Row B, Col 1",
+                        "country": "France"
                     },
                     {
                         "region": "Côte de Beaune",
@@ -1471,7 +1742,9 @@
                         "vintage": "2021",
                         "price_nok": 2750,
                         "description": "Meursault. High acidity, dry, full body. Reductive and taut in youth, unfurling to rich hazelnut and citrus.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 3, Row C, Col 6",
+                        "country": "France"
                     },
                     {
                         "region": "Côte de Beaune",
@@ -1480,7 +1753,9 @@
                         "vintage": "2022",
                         "price_nok": 1450,
                         "description": "Pinot Noir. Medium-high acidity, dry, medium body. Rustic and earthy with notes of red currant and firm tannins.",
-                        "grape": "Pinot Noir"
+                        "grape": "Pinot Noir",
+                        "location": "Fridge 4, Row D, Col 8",
+                        "country": "France"
                     },
                     {
                         "region": "Côte de Beaune",
@@ -1489,7 +1764,9 @@
                         "vintage": "2020",
                         "price_nok": 1850,
                         "description": "Pinot Noir. Medium-high acidity, dry, medium body. Rustic and earthy with notes of red currant and firm tannins.",
-                        "grape": "Pinot Noir"
+                        "grape": "Pinot Noir",
+                        "location": "Fridge 4, Row A, Col 1",
+                        "country": "France"
                     },
                     {
                         "region": "Côte de Beaune",
@@ -1498,7 +1775,9 @@
                         "vintage": "2022",
                         "price_nok": 2200,
                         "description": "Pinot Noir. Medium-high acidity, dry, medium body. Structured and spicy with notes of dark cherry and underbrush.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 4, Row C, Col 8",
+                        "country": "France"
                     },
                     {
                         "region": "Côte de Beaune",
@@ -1507,7 +1786,9 @@
                         "vintage": "2017",
                         "price_nok": 1900,
                         "description": "White Burgundy. Medium-high acidity, dry, medium body. Complex and textured with orchard fruit and minerality.",
-                        "grape": "Chardonnay"
+                        "grape": "Chardonnay",
+                        "location": "Fridge 4, Row D, Col 4",
+                        "country": "France"
                     },
                     {
                         "region": "Côte de Beaune",
@@ -1516,7 +1797,9 @@
                         "vintage": "2021",
                         "price_nok": 1700,
                         "description": "Pinot Noir. Medium-high acidity, dry, medium body. Elegant and mineral-driven with crunchy red fruit.",
-                        "grape": "Pinot Noir"
+                        "grape": "Pinot Noir",
+                        "location": "Fridge 4, Row E, Col 7",
+                        "country": "France"
                     },
                     {
                         "region": "Côte de Beaune",
@@ -1525,7 +1808,9 @@
                         "vintage": "2021",
                         "price_nok": 1650,
                         "description": "Pinot Noir. Medium-high acidity, dry, medium body. Earthy and structured with dark cherry and fine tannins.",
-                        "grape": "Pinot Noir"
+                        "grape": "Pinot Noir",
+                        "location": "Fridge 2, Row C, Col 3",
+                        "country": "France"
                     },
                     {
                         "region": "Côte de Beaune",
@@ -1534,7 +1819,9 @@
                         "vintage": "2021",
                         "price_nok": 1650,
                         "description": "Pinot Noir. Medium-high acidity, dry, medium body. Earthy and structured with dark cherry and fine tannins.",
-                        "grape": "Pinot Noir"
+                        "grape": "Pinot Noir",
+                        "location": "Fridge 3, Row A, Col 3",
+                        "country": "France"
                     }
                 ],
                 "beaujolais": [
@@ -1545,7 +1832,9 @@
                         "price_nok": 995,
                         "description": "Gamay. High acidity, dry, light-medium body. Low tannins, juicy and whole-cluster driven with notes of red berry and violet.",
                         "grape": "Gamay",
-                        "region": "Beaujolais"
+                        "region": "Beaujolais",
+                        "location": "Fridge 2, Row E, Col 8",
+                        "country": "France"
                     },
                     {
                         "producer": "Domaine Richard Rottiers",
@@ -1554,7 +1843,9 @@
                         "price_nok": 900,
                         "description": "Gamay. High acidity, dry, light-medium body. Soft tannins, highly drinkable with notes of crushed strawberry and granite.",
                         "grape": "Gamay",
-                        "region": "Beaujolais"
+                        "region": "Beaujolais",
+                        "location": "Fridge 3, Row D, Col 4",
+                        "country": "France"
                     }
                 ],
                 "jura": [
@@ -1565,7 +1856,9 @@
                         "price_nok": 1700,
                         "description": "Arbois Chardonnay. High acidity, dry, medium body. Pristine and reductive with lemon peel and flint.",
                         "grape": "Pinot Noir",
-                        "region": "Arbois (Jura)"
+                        "region": "Arbois (Jura)",
+                        "location": "Fridge 1, Row B, Col 1",
+                        "country": "France"
                     }
                 ],
                 "loire": [
@@ -1574,7 +1867,9 @@
                         "name": "Statera Rouge",
                         "vintage": "2022",
                         "price_nok": 2300,
-                        "description": "Loire Rouge. Medium-high acidity, dry, medium body. Fresh and crunchy with peppery spice and red fruit."
+                        "description": "Loire Rouge. Medium-high acidity, dry, medium body. Fresh and crunchy with peppery spice and red fruit.",
+                        "location": "Fridge 3, Row D, Col 7",
+                        "country": "France"
                     }
                 ],
                 "rhone": [
@@ -1585,7 +1880,9 @@
                         "price_nok": 1650,
                         "description": "Crozes-Hermitage (Syrah). Medium-high acidity, dry, medium body. Firm tannins, savory with notes of olive, meat, and black pepper.",
                         "grape": "Syrah",
-                        "region": "Crozes-Hermitage"
+                        "region": "Crozes-Hermitage",
+                        "location": "Fridge 2, Row D, Col 8",
+                        "country": "France"
                     },
                     {
                         "producer": "Bernard Gripa",
@@ -1594,7 +1891,9 @@
                         "price_nok": 1450,
                         "description": "Saint-Joseph (Syrah). Medium-high acidity, dry, medium-full body. Granitic minerality, dark fruit, and smoked meat.",
                         "grape": "Syrah",
-                        "region": "Saint-Joseph"
+                        "region": "Saint-Joseph",
+                        "location": "Fridge 1, Row D, Col 1",
+                        "country": "France"
                     },
                     {
                         "producer": "David Reynaud",
@@ -1603,7 +1902,9 @@
                         "price_nok": 1000,
                         "description": "Northern Rhône Syrah. Medium-high acidity, dry, medium body. Supple tannins, biodynamic, with vibrant blackberry and pepper.",
                         "grape": "Syrah",
-                        "region": "Rhône"
+                        "region": "Rhône",
+                        "location": "Fridge 3, Row F, Col 8",
+                        "country": "France"
                     },
                     {
                         "producer": "David Reynaud",
@@ -1612,7 +1913,9 @@
                         "price_nok": 1300,
                         "description": "Northern Rhône Syrah. Medium-high acidity, dry, medium body. Supple tannins, biodynamic, with vibrant blackberry and pepper.",
                         "grape": "Syrah",
-                        "region": "Rhône"
+                        "region": "Rhône",
+                        "location": "Fridge 4, Row F, Col 5",
+                        "country": "France"
                     },
                     {
                         "producer": "David Reynaud",
@@ -1621,7 +1924,9 @@
                         "price_nok": 1450,
                         "description": "Northern Rhône Syrah. Medium-high acidity, dry, medium body. Supple tannins, biodynamic, with vibrant blackberry and pepper.",
                         "grape": "Syrah",
-                        "region": "Rhône"
+                        "region": "Rhône",
+                        "location": "Fridge 2, Row F, Col 4",
+                        "country": "France"
                     },
                     {
                         "producer": "Dom. Du Coulet-Mattieu Barret",
@@ -1630,7 +1935,9 @@
                         "price_nok": 1200,
                         "description": "Northern Rhône Syrah. Medium-high acidity, dry, medium body. Pure and unoaked, bursting with juicy dark fruit and violet.",
                         "grape": "Syrah",
-                        "region": "Rhône"
+                        "region": "Rhône",
+                        "location": "Fridge 4, Row F, Col 4",
+                        "country": "France"
                     },
                     {
                         "producer": "Chateau Rayas",
@@ -1639,7 +1946,9 @@
                         "price_nok": 2650,
                         "description": "Southern Rhône Blend. Medium acidity, dry, medium-full body. Legendary and ethereal with notes of kirsch, garrigue, and exotic spice.",
                         "grape": "Grenache",
-                        "region": "Châteauneuf-du-Pape"
+                        "region": "Châteauneuf-du-Pape",
+                        "location": "Fridge 3, Row F, Col 5",
+                        "country": "France"
                     }
                 ]
             },
@@ -1652,7 +1961,9 @@
                         "price_nok": 1300,
                         "description": "Barbera. High acidity, dry, medium-full body. Low tannins, rich and juicy with notes of dark cherry, plum, and spice.",
                         "grape": "Barbera",
-                        "region": "Piemonte"
+                        "region": "Piemonte",
+                        "location": "Fridge 3, Row A, Col 7",
+                        "country": "Italy"
                     },
                     {
                         "producer": "Luciano Sandrone",
@@ -1661,7 +1972,9 @@
                         "price_nok": 1350,
                         "description": "Barbera. High acidity, dry, medium-full body. Polished and elegant, bursting with ripe red and black fruit.",
                         "grape": "Barbera",
-                        "region": "Piemonte"
+                        "region": "Piemonte",
+                        "location": "Fridge 1, Row B, Col 3",
+                        "country": "Italy"
                     },
                     {
                         "producer": "Cavalotto",
@@ -1670,7 +1983,9 @@
                         "price_nok": 1300,
                         "description": "Nebbiolo. High acidity, dry, medium-full body. Grippy, formidable tannins with notes of tar, roses, and dried cherry.",
                         "grape": "Nebbiolo",
-                        "region": "Piemonte"
+                        "region": "Piemonte",
+                        "location": "Fridge 2, Row E, Col 7",
+                        "country": "Italy"
                     },
                     {
                         "producer": "E. Pira di Chiara Boschis",
@@ -1679,7 +1994,9 @@
                         "price_nok": 1100,
                         "description": "Dolcetto/Barolo. High acidity, dry, full body. Powerful tannins (Barolo) or juicy black fruit (Dolcetto).",
                         "grape": "Dolcetto",
-                        "region": "Piemonte (Alba)"
+                        "region": "Piemonte (Alba)",
+                        "location": "Fridge 2, Row B, Col 5",
+                        "country": "Italy"
                     },
                     {
                         "producer": "E. Pira di Chiara Boschis",
@@ -1688,7 +2005,9 @@
                         "price_nok": 2500,
                         "description": "Dolcetto/Barolo. High acidity, dry, full body. Powerful tannins (Barolo) or juicy black fruit (Dolcetto).",
                         "grape": "Nebbiolo",
-                        "region": "Piemonte (Alba)"
+                        "region": "Piemonte (Alba)",
+                        "location": "Fridge 4, Row B, Col 2",
+                        "country": "Italy"
                     },
                     {
                         "producer": "Elio Altare",
@@ -1697,7 +2016,9 @@
                         "price_nok": 1150,
                         "description": "Barbera/Nebbiolo. High acidity, dry, medium-full body. Modern style, plush fruit, and integrated oak.",
                         "grape": "Barbera",
-                        "region": "Piemonte"
+                        "region": "Piemonte",
+                        "location": "Fridge 2, Row D, Col 7",
+                        "country": "Italy"
                     },
                     {
                         "producer": "Elio Altare",
@@ -1706,7 +2027,9 @@
                         "price_nok": 1200,
                         "description": "Barbera/Nebbiolo. High acidity, dry, medium-full body. Modern style, plush fruit, and integrated oak.",
                         "grape": "Barbera",
-                        "region": "Piemonte"
+                        "region": "Piemonte",
+                        "location": "Fridge 2, Row E, Col 8",
+                        "country": "Italy"
                     },
                     {
                         "producer": "Luigi Giordano",
@@ -1715,7 +2038,9 @@
                         "price_nok": 1600,
                         "description": "Barbaresco (Nebbiolo). High acidity, dry, medium-full body. Firm tannins with notes of dried rose, cherry, and tar.",
                         "grape": "Nebbiolo",
-                        "region": "Barbaresco"
+                        "region": "Barbaresco",
+                        "location": "Fridge 3, Row D, Col 8",
+                        "country": "Italy"
                     },
                     {
                         "producer": "Francesco Brigatti",
@@ -1724,7 +2049,9 @@
                         "price_nok": 1150,
                         "description": "Ghemme (Nebbiolo). High acidity, dry, medium body. Firm tannins, earthy and rustic with notes of dried fruit and leather.",
                         "grape": "Nebbiolo",
-                        "region": "Ghemme"
+                        "region": "Ghemme",
+                        "location": "Fridge 3, Row B, Col 5",
+                        "country": "Italy"
                     },
                     {
                         "producer": "G.D. Vajra",
@@ -1733,7 +2060,9 @@
                         "price_nok": 900,
                         "description": "Nebbiolo/Barolo. High acidity, dry, medium-full body. Elegant and perfumed with firm tannins, red cherry, and floral notes.",
                         "grape": "Nebbiolo",
-                        "region": "Piemonte"
+                        "region": "Piemonte",
+                        "location": "Fridge 1, Row A, Col 7",
+                        "country": "Italy"
                     },
                     {
                         "producer": "G.D. Vajra",
@@ -1742,7 +2071,9 @@
                         "price_nok": 2000,
                         "description": "Nebbiolo/Barolo. High acidity, dry, medium-full body. Elegant and perfumed with firm tannins, red cherry, and floral notes.",
                         "grape": "Nebbiolo",
-                        "region": "Piemonte"
+                        "region": "Piemonte",
+                        "location": "Fridge 1, Row A, Col 2",
+                        "country": "Italy"
                     },
                     {
                         "producer": "Tenuta Carretta",
@@ -1751,7 +2082,9 @@
                         "price_nok": 1300,
                         "description": "Barolo. High acidity, dry, full body. Grippy tannins, structured with notes of tar, roses, and spice.",
                         "grape": "Nebbiolo",
-                        "region": "Barolo"
+                        "region": "Barolo",
+                        "location": "Fridge 1, Row A, Col 1",
+                        "country": "Italy"
                     }
                 ],
                 "toscana": [
@@ -1762,14 +2095,18 @@
                         "price_nok": 950,
                         "description": "Sangiovese. High acidity, dry, medium body. Firm tannins with notes of sour cherry, leather, and earth.",
                         "grape": "Sangiovese",
-                        "region": "Montalcino"
+                        "region": "Montalcino",
+                        "location": "Fridge 1, Row C, Col 5",
+                        "country": "Italy"
                     },
                     {
                         "producer": "Poggio Al Tesoro",
                         "name": "Mediterra",
                         "vintage": "2022",
                         "price_nok": 900,
-                        "description": "Super Tuscan Blend. Medium acidity, dry, full body. Rich and modern with plush dark fruit, mocha, and smooth tannins."
+                        "description": "Super Tuscan Blend. Medium acidity, dry, full body. Rich and modern with plush dark fruit, mocha, and smooth tannins.",
+                        "location": "Fridge 3, Row F, Col 3",
+                        "country": "Italy"
                     },
                     {
                         "producer": "Isole e Olena",
@@ -1778,7 +2115,9 @@
                         "price_nok": 1250,
                         "description": "Chianti Classico (Sangiovese). High acidity, dry, medium body. Elegant and traditional with notes of red cherry and dried herbs.",
                         "grape": "Sangiovese",
-                        "region": "Chianti Classico"
+                        "region": "Chianti Classico",
+                        "location": "Fridge 3, Row C, Col 8",
+                        "country": "Italy"
                     },
                     {
                         "producer": "Selvapiana",
@@ -1787,7 +2126,9 @@
                         "price_nok": 1400,
                         "description": "Chianti Rufina (Sangiovese). High acidity, dry, medium body. Firm, dusty tannins with notes of tart cherry and cedar.",
                         "grape": "Sangiovese",
-                        "region": "Chianti Rufina"
+                        "region": "Chianti Rufina",
+                        "location": "Fridge 4, Row B, Col 2",
+                        "country": "Italy"
                     },
                     {
                         "producer": "Selvapiana",
@@ -1796,7 +2137,9 @@
                         "price_nok": 1250,
                         "description": "Chianti Rufina (Sangiovese). High acidity, dry, medium body. Firm, dusty tannins with notes of tart cherry and cedar.",
                         "grape": "Sangiovese",
-                        "region": "Chianti Rufina"
+                        "region": "Chianti Rufina",
+                        "location": "Fridge 4, Row E, Col 1",
+                        "country": "Italy"
                     },
                     {
                         "producer": "Selvapiana",
@@ -1805,7 +2148,9 @@
                         "price_nok": 2200,
                         "description": "Chianti Rufina (Sangiovese). High acidity, dry, medium body. Firm, dusty tannins with notes of tart cherry and cedar.",
                         "grape": "Sangiovese",
-                        "region": "Chianti Rufina"
+                        "region": "Chianti Rufina",
+                        "location": "Fridge 4, Row A, Col 6",
+                        "country": "Italy"
                     },
                     {
                         "producer": "Querce Bettina",
@@ -1814,7 +2159,9 @@
                         "price_nok": 2100,
                         "description": "Brunello (Sangiovese). High acidity, dry, full body. Powerful tannins, complex with notes of dried cherry, leather, and tobacco.",
                         "grape": "Sangiovese",
-                        "region": "Montalcino"
+                        "region": "Montalcino",
+                        "location": "Fridge 1, Row E, Col 1",
+                        "country": "Italy"
                     }
                 ]
             },
@@ -1827,7 +2174,9 @@
                         "vintage": "2016",
                         "price_nok": 1500,
                         "description": "Rioja (Tempranillo). Medium acidity, dry, full body. Firm tannins, traditional style with notes of dark fruit, dill, and vanilla oak.",
-                        "grape": "Tempranillo Blend"
+                        "grape": "Tempranillo Blend",
+                        "location": "Fridge 2, Row D, Col 8",
+                        "country": null
                     },
                     {
                         "region": "Ribeira Sacra",
@@ -1836,7 +2185,9 @@
                         "vintage": "2021",
                         "price_nok": 950,
                         "description": "Mencía. Medium-high acidity, dry, medium body. Light tannins, fresh and mineral with notes of red berries and crushed rocks.",
-                        "grape": "Mencía"
+                        "grape": "Mencía",
+                        "location": "Fridge 4, Row C, Col 3",
+                        "country": null
                     },
                     {
                         "region": "Madrid",
@@ -1845,7 +2196,9 @@
                         "vintage": "2021",
                         "price_nok": 1100,
                         "description": "Garnacha. High acidity, dry, light-medium body. Ethereal and pale, reminiscent of Pinot Noir, with wild strawberry and herbs.",
-                        "grape": "Garnacha"
+                        "grape": "Garnacha",
+                        "location": "Fridge 1, Row F, Col 1",
+                        "country": null
                     },
                     {
                         "region": "Catalonia",
@@ -1854,7 +2207,9 @@
                         "vintage": "2021",
                         "price_nok": 950,
                         "description": "Garnacha. Medium acidity, dry, medium body. Juicy and fruit-forward with soft tannins and red plum notes.",
-                        "grape": "Garnacha"
+                        "grape": "Garnacha",
+                        "location": "Fridge 2, Row C, Col 2",
+                        "country": null
                     }
                 ],
                 "portugal": [
@@ -1863,7 +2218,9 @@
                         "name": "Palhete",
                         "vintage": "2024",
                         "price_nok": 950,
-                        "description": "Portuguese Red. Medium acidity, dry, medium body. Rustic and authentic with dark fruit and earthy spice."
+                        "description": "Portuguese Red. Medium acidity, dry, medium body. Rustic and authentic with dark fruit and earthy spice.",
+                        "location": "Fridge 2, Row F, Col 4",
+                        "country": null
                     }
                 ],
                 "germany": [
@@ -1874,7 +2231,9 @@
                         "vintage": "2018",
                         "price_nok": 1250,
                         "description": "Spätburgunder (Pinot Noir). Medium-high acidity, dry, medium body. Elegant oak integration, cherry, and forest floor.",
-                        "grape": "Spätburgunder"
+                        "grape": "Spätburgunder",
+                        "location": "Fridge 3, Row D, Col 4",
+                        "country": "Germany"
                     },
                     {
                         "region": "Pfalz",
@@ -1883,7 +2242,9 @@
                         "vintage": "2020",
                         "price_nok": 1990,
                         "description": "Spätburgunder (Pinot Noir). Medium-high acidity, dry, medium body. Elegant oak integration, cherry, and forest floor.",
-                        "grape": "Spätburgunder"
+                        "grape": "Spätburgunder",
+                        "location": "Fridge 3, Row C, Col 7",
+                        "country": "Germany"
                     },
                     {
                         "region": "Rheinhessen",
@@ -1892,7 +2253,9 @@
                         "vintage": "2022",
                         "price_nok": 950,
                         "description": "Spätburgunder (Pinot Noir). Medium-high acidity, dry, medium body. Pure and precise with crunchy red fruit and fine tannins.",
-                        "grape": "Spätburgunder"
+                        "grape": "Spätburgunder",
+                        "location": "Fridge 4, Row F, Col 7",
+                        "country": "Germany"
                     }
                 ],
                 "usa": [
@@ -1903,7 +2266,9 @@
                         "vintage": "2022",
                         "price_nok": 1300,
                         "description": "California Chardonnay. Medium-high acidity, dry, medium-full body. Elegant, Burgundian style with bright fruit and subtle oak.",
-                        "grape": "Pinot Noir"
+                        "grape": "Pinot Noir",
+                        "location": "Fridge 4, Row B, Col 3",
+                        "country": "USA"
                     },
                     {
                         "region": "California",
@@ -1912,19 +2277,22 @@
                         "vintage": "2023",
                         "price_nok": 1100,
                         "description": "California Pinot Noir. Medium acidity, dry, medium body. Bright and juicy with notes of ripe cherry, cola, and spice.",
-                        "grape": "Pinot Noir"
+                        "grape": "Pinot Noir",
+                        "location": "Fridge 4, Row F, Col 8",
+                        "country": "USA"
                     }
                 ]
             }
         },
         "dessert_wine": [
             {
-                "country": "Frankrike",
+                "country": "France",
                 "region": "Rivesaltes",
                 "name": "Riveyrac vin doux Naturel",
                 "vintage": "1986",
                 "price_nok": 1800,
-                "description": "Vin Doux Naturel. Medium acidity, sweet, full body. Fortified and oxidized with notes of raisin, fig, caramel, and walnut."
+                "description": "Vin Doux Naturel. Medium acidity, sweet, full body. Fortified and oxidized with notes of raisin, fig, caramel, and walnut.",
+                "location": "Fridge 4, Row A, Col 5"
             },
             {
                 "country": "Italia",
@@ -1933,26 +2301,29 @@
                 "name": "Brachetto d'Aqui Pineto",
                 "vintage": "2022",
                 "price_nok": 700,
-                "description": "Brachetto. Medium acidity, sweet, light body. Lightly sparkling with intense notes of fresh strawberry and rose petal."
+                "description": "Brachetto. Medium acidity, sweet, light body. Lightly sparkling with intense notes of fresh strawberry and rose petal.",
+                "location": "Fridge 2, Row B, Col 8"
             },
             {
-                "country": "Tyskland",
+                "country": "Germany",
                 "region": "Mosel",
                 "producer": "Selbach-Oster",
                 "name": "Zeltinger Zonnenuhr Auslese",
                 "vintage": "2018",
                 "price_nok": 1250,
                 "description": "Riesling Auslese. High acidity, sweet, medium body. Lush and honeyed with notes of apricot, mango, and offset by vibrant acidity.",
-                "grape": "Riesling"
+                "grape": "Riesling",
+                "location": "Fridge 1, Row C, Col 7"
             },
             {
-                "country": "Ungarn",
+                "country": "Hungary",
                 "region": "Tokaj",
                 "producer": "Tokaji Hétszőlő",
                 "name": "Imperial Szamorodni",
                 "vintage": "2020",
                 "price_nok": 1200,
-                "description": "Szamorodni. High acidity, sweet, full body. Complex botrytis notes of marmalade, honey, and dried apricot."
+                "description": "Szamorodni. High acidity, sweet, full body. Complex botrytis notes of marmalade, honey, and dried apricot.",
+                "location": "Fridge 2, Row F, Col 6"
             }
         ]
     }

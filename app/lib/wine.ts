@@ -55,7 +55,7 @@ export function getAllWines(): Wine[] {
 
 
     // Helper to recursively flatten bottles
-    const flattenBottles = (obj: any, type: WineType, parentKey = '') => {
+    const flattenBottles = (obj: any, type: WineType) => {
         for (const key in obj) {
             if (Array.isArray(obj[key])) {
                 const regionName = key
@@ -63,21 +63,17 @@ export function getAllWines(): Wine[] {
                     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
                     .join(' ');
 
-                const formattedRegion = parentKey ?
-                    `${parentKey.charAt(0).toUpperCase() + parentKey.slice(1)} ${regionName}`
-                    : regionName;
-
                 for (const wine of obj[key]) {
                     wines.push({
                         id: `btl-${idCounter++}`,
                         category: 'bottles',
                         type: type,
-                        region: wine.region || formattedRegion,
-                        ...createWineParams(wine)
+                        ...createWineParams(wine),
+                        region: wine.region || regionName
                     } as Wine);
                 }
             } else if (typeof obj[key] === 'object' && obj[key] !== null) {
-                flattenBottles(obj[key], type, key);
+                flattenBottles(obj[key], type);
             }
         }
     };
