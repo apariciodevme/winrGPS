@@ -1,20 +1,20 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { Search, Wine as WineIcon, GlassWater, ChevronRight, X, MapPin } from "lucide-react";
-import { getAllWines, Wine, WineCategory, WineType } from "./lib/wine";
+import { Search, ChevronRight, X } from "lucide-react";
+import { getAllWines, Wine, WineType } from "./lib/wine";
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
-  const [category, setCategory] = useState<WineCategory>("by_the_glass");
   const [selectedWine, setSelectedWine] = useState<Wine | null>(null);
   const [selectedCountry, setSelectedCountry] = useState<string>("All");
-  const [selectedGrape, setSelectedGrape] = useState<string>("All");
 
   const wines = useMemo(() => getAllWines(), []);
 
-  const countries = useMemo(() => ["All", ...Array.from(new Set(wines.map(w => w.country).filter(Boolean)))].sort(), [wines]);
-  const grapes = useMemo(() => ["All", ...Array.from(new Set(wines.map(w => w.grape).filter(Boolean)))].sort(), [wines]);
+  const countries = useMemo(
+    () => ["All", ...Array.from(new Set(wines.map((w) => w.country).filter(Boolean))).sort()],
+    [wines]
+  );
 
   const filteredWines = useMemo(() => {
     let filtered = wines;
@@ -25,37 +25,28 @@ export default function Home() {
         (w) =>
           w.name.toLowerCase().includes(q) ||
           w.producer.toLowerCase().includes(q) ||
-          w.region.toLowerCase().includes(q) ||
           w.vintage.toLowerCase().includes(q) ||
-          w.type.toLowerCase().includes(q)
+          w.type.toLowerCase().includes(q) ||
+          (w.country || "").toLowerCase().includes(q)
       );
-    } else {
-      filtered = wines.filter((w) => w.category === category);
     }
 
     if (selectedCountry !== "All") {
       filtered = filtered.filter((w) => w.country === selectedCountry);
     }
 
-    if (selectedGrape !== "All") {
-      filtered = filtered.filter((w) => w.grape === selectedGrape);
-    }
-
     return filtered;
-  }, [wines, searchQuery, category, selectedCountry, selectedGrape]);
+  }, [wines, searchQuery, selectedCountry]);
 
   const groupedWines = useMemo(() => {
     if (searchQuery.trim()) return null;
 
-    const groups: Record<string, Wine[]> = {
-      sparkling: [],
-      white: [],
-      red: [],
-      sweet: []
-    };
+    const order: WineType[] = ["sparkling", "white", "rose", "red", "sweet"];
+    const groups: Record<string, Wine[]> = {};
+    for (const t of order) groups[t] = [];
 
     for (const w of filteredWines) {
-      if (groups[w.type]) {
+      if (groups[w.type] !== undefined) {
         groups[w.type].push(w);
       }
     }
@@ -64,7 +55,11 @@ export default function Home() {
 
   const formatType = (type: string) => {
     switch (type) {
-      case 'dessert_wine': return 'Dessert Wine';
+      case "sparkling": return "Sparkling";
+      case "white": return "White";
+      case "red": return "Red";
+      case "rose": return "Rosé";
+      case "sweet": return "Sweet & Dessert";
       default: return type.charAt(0).toUpperCase() + type.slice(1);
     }
   };
@@ -73,13 +68,13 @@ export default function Home() {
     <div className="min-h-screen bg-background text-foreground pb-24 font-sans selection:bg-foreground selection:text-background">
       {/* Header */}
       <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border/60 px-4 pt-12 pb-4">
-        <div className="max-w-2xl mx-auto space-y-5">
+        <div className="max-w-2xl mx-auto space-y-4">
           <div className="flex items-end justify-between px-1">
             <h1 className="text-[34px] leading-tight font-semibold tracking-tight">
               Wine Map
             </h1>
             <div className="text-[15px] font-medium text-muted-foreground pb-1">
-              {filteredWines.length} items
+              {filteredWines.length} bottles
             </div>
           </div>
 
@@ -87,7 +82,7 @@ export default function Home() {
             <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-[18px] h-[18px] text-muted-foreground" />
             <input
               type="text"
-              placeholder="Search by name, grape, region..."
+              placeholder="Search wines, producers, countries..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full bg-[#efeff0] border border-transparent rounded-[10px] py-[7px] pl-10 pr-4 text-[17px] text-foreground placeholder:text-muted-foreground focus:outline-none focus:bg-background focus:ring-[3px] focus:ring-[#007aff]/30 focus:border-[#007aff] transition-all"
@@ -95,57 +90,19 @@ export default function Home() {
           </div>
 
           {!searchQuery && (
-            <div className="flex flex-col gap-3 w-full">
-              <div className="flex p-[3px] bg-[#eeeff0] rounded-lg self-center w-full">
-                <button
-                  onClick={() => setCategory("by_the_glass")}
-                  className={`flex-1 py-1 text-[13px] font-semibold tracking-wide rounded-[6px] transition-all ${category === "by_the_glass"
-                    ? "bg-white text-foreground shadow-[0_1px_3px_rgba(0,0,0,0.1),0_0_1px_rgba(0,0,0,0.1)]"
-                    : "text-foreground/70 hover:bg-[#e0e0e1]/50 active:bg-[#e0e0e1]"
-                    }`}
-                >
-                  By the Glass
-                </button>
-                <button
-                  onClick={() => setCategory("bottles")}
-                  className={`flex-1 py-1 text-[13px] font-semibold tracking-wide rounded-[6px] transition-all ${category === "bottles"
-                    ? "bg-white text-foreground shadow-[0_1px_3px_rgba(0,0,0,0.1),0_0_1px_rgba(0,0,0,0.1)]"
-                    : "text-foreground/70 hover:bg-[#e0e0e1]/50 active:bg-[#e0e0e1]"
-                    }`}
-                >
-                  Bottles
-                </button>
-              </div>
-              <div className="flex gap-2">
-                <div className="relative flex-1">
-                  <select
-                    value={selectedCountry}
-                    onChange={(e) => setSelectedCountry(e.target.value)}
-                    className="w-full bg-[#efeff0] border-transparent rounded-[8px] py-1.5 pl-3 pr-8 text-[14px] font-medium text-foreground focus:ring-2 focus:ring-[#007aff]/30 focus:outline-none appearance-none cursor-pointer"
-                  >
-                    {countries.map((c) => (
-                      <option key={c as string} value={c as string}>
-                        {c === "All" ? "All Countries" : c as string}
-                      </option>
-                    ))}
-                  </select>
-                  <ChevronRight className="absolute right-2.5 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground rotate-90 pointer-events-none" />
-                </div>
-                <div className="relative flex-1">
-                  <select
-                    value={selectedGrape}
-                    onChange={(e) => setSelectedGrape(e.target.value)}
-                    className="w-full bg-[#efeff0] border-transparent rounded-[8px] py-1.5 pl-3 pr-8 text-[14px] font-medium text-foreground focus:ring-2 focus:ring-[#007aff]/30 focus:outline-none appearance-none cursor-pointer"
-                  >
-                    {grapes.map((g) => (
-                      <option key={g as string} value={g as string}>
-                        {g === "All" ? "All Grapes" : g as string}
-                      </option>
-                    ))}
-                  </select>
-                  <ChevronRight className="absolute right-2.5 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground rotate-90 pointer-events-none" />
-                </div>
-              </div>
+            <div className="relative">
+              <select
+                value={selectedCountry}
+                onChange={(e) => setSelectedCountry(e.target.value)}
+                className="w-full bg-[#efeff0] border-transparent rounded-[8px] py-1.5 pl-3 pr-8 text-[14px] font-medium text-foreground focus:ring-2 focus:ring-[#007aff]/30 focus:outline-none appearance-none cursor-pointer"
+              >
+                {countries.map((c) => (
+                  <option key={c as string} value={c as string}>
+                    {c === "All" ? "All Countries" : c as string}
+                  </option>
+                ))}
+              </select>
+              <ChevronRight className="absolute right-2.5 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground rotate-90 pointer-events-none" />
             </div>
           )}
         </div>
@@ -167,7 +124,7 @@ export default function Home() {
             ) : (
               <div className="text-center py-20 text-muted-foreground">
                 <Search className="w-12 h-12 mx-auto mb-4 opacity-20" />
-                <p className="text-[17px]">No results found for "{searchQuery}"</p>
+                <p className="text-[17px]">No results found for &ldquo;{searchQuery}&rdquo;</p>
               </div>
             )}
           </div>
@@ -178,7 +135,7 @@ export default function Home() {
                 if (typeWines.length === 0) return null;
                 return (
                   <section key={type} className="space-y-3">
-                    <h2 className="text-[20px] font-semibold text-foreground tracking-tight sticky top-[210px] bg-background/95 backdrop-blur-md z-40 py-2 px-1">
+                    <h2 className="text-[20px] font-semibold text-foreground tracking-tight sticky top-[168px] bg-background/95 backdrop-blur-md z-40 py-2 px-1">
                       {formatType(type)}
                     </h2>
                     <div className="space-y-3">
@@ -208,7 +165,7 @@ function WineCard({ wine, onClick }: { wine: Wine; onClick: () => void }) {
       className="px-5 py-4 bg-card rounded-[14px] border border-border/80 shadow-[0_1px_2px_rgba(0,0,0,0.02)] hover:bg-[#f9f9fb] transition-colors active:bg-[#f0f0f2] active:scale-[0.99] cursor-pointer"
     >
       <div className="flex justify-between items-start gap-4">
-        <div className="space-y-0.5 flex-1 pr-4">
+        <div className="space-y-0.5 flex-1">
           <h3 className="text-[17px] font-medium leading-[22px] text-foreground">
             {wine.name}
           </h3>
@@ -218,37 +175,20 @@ function WineCard({ wine, onClick }: { wine: Wine; onClick: () => void }) {
                 {wine.producer}
               </p>
             )}
-            <div className="flex flex-wrap items-center gap-x-1.5 text-[15px] text-muted-foreground">
-              {wine.grape && <span>{wine.grape}</span>}
-              {wine.grape && <span>&middot;</span>}
-              {wine.region && <span>{wine.region}</span>}
-              {wine.region && wine.country && <span>&middot;</span>}
+            <div className="flex flex-wrap items-center gap-x-1.5 text-[14px] text-muted-foreground">
               {wine.country && <span>{wine.country}</span>}
-              {(wine.region || wine.country) && <span>&middot;</span>}
-              <span>{wine.vintage}</span>
-              {wine.category === "by_the_glass" && (
-                <>
-                  <span>&middot;</span>
-                  <span className="text-[12px] uppercase font-semibold tracking-wider text-[#a1a1aa] ml-0.5">Glass</span>
-                </>
-              )}
-              {wine.location && (
-                <>
-                  <span>&middot;</span>
-                  <span className="flex items-center gap-0.5 text-[13px]">
-                    <MapPin className="w-3 h-3 text-muted-foreground/80" />
-                    {wine.location.split(',')[0]}
-                  </span>
-                </>
-              )}
+              {wine.country && wine.vintage && <span>&middot;</span>}
+              {wine.vintage && <span>{wine.vintage}</span>}
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-end shrink-0 pt-0.5 text-right">
-          <p className="text-[17px] font-medium text-foreground">
-            {wine.price_nok},-
-          </p>
-        </div>
+        {wine.location && (
+          <div className="shrink-0 pt-0.5">
+            <span className="inline-flex items-center justify-center px-2 py-1.5 rounded-md bg-[#efeff0] text-[13px] font-medium text-foreground/80">
+              {wine.location}
+            </span>
+          </div>
+        )}
       </div>
     </div>
   );
@@ -285,24 +225,17 @@ function WineModal({ wine, onClose }: { wine: Wine; onClose: () => void }) {
             </div>
 
             <div className="flex flex-wrap items-center gap-x-2 gap-y-2 text-[15px] text-foreground/80 font-medium">
-              {wine.grape && (
-                <span className="bg-[#f0f0f2] px-3 py-1 rounded-md">{wine.grape}</span>
-              )}
-              {wine.region && (
-                <span className="bg-[#f0f0f2] px-3 py-1 rounded-md">{wine.region}</span>
-              )}
               {wine.country && (
                 <span className="bg-[#f0f0f2] px-3 py-1 rounded-md">{wine.country}</span>
               )}
-              <span className="bg-[#f0f0f2] px-3 py-1 rounded-md">{wine.vintage}</span>
-              <span className="bg-[#f0f0f2] px-3 py-1 rounded-md capitalize">{wine.type}</span>
-              {wine.category === "by_the_glass" && (
-                <span className="bg-[#e5e5ea] text-foreground px-3 py-1 rounded-md font-semibold">Glass</span>
+              {wine.vintage && (
+                <span className="bg-[#f0f0f2] px-3 py-1 rounded-md">{wine.vintage}</span>
               )}
+              <span className="bg-[#f0f0f2] px-3 py-1 rounded-md capitalize">{wine.type}</span>
             </div>
 
             {wine.description && (
-              <div className="space-y-2">
+              <div className="space-y-2 pb-4">
                 <h3 className="text-[15px] font-semibold text-foreground">Tasting Notes</h3>
                 <p className="text-[16px] leading-relaxed text-muted-foreground">
                   {wine.description}
@@ -310,24 +243,14 @@ function WineModal({ wine, onClose }: { wine: Wine; onClose: () => void }) {
               </div>
             )}
 
-            <div className="pt-6 border-t border-border/60">
-              <div className="flex justify-between items-center bg-[#f9f9fb] p-4 rounded-xl">
-                {wine.location && (
-                  <div className="flex flex-col">
-                    <span className="text-[13px] font-semibold text-muted-foreground uppercase tracking-wider mb-0.5">Location</span>
-                    <span className="text-[16px] font-medium text-foreground">
-                      {wine.location}
-                    </span>
-                  </div>
-                )}
-                <div className="flex flex-col items-end grow">
-                  <span className="text-[13px] font-semibold text-muted-foreground uppercase tracking-wider mb-0.5">Price</span>
-                  <span className="text-[24px] font-bold text-foreground leading-none">
-                    {wine.price_nok} <span className="text-[14px] font-semibold text-muted-foreground ml-0.5">NOK</span>
-                  </span>
-                </div>
+            {wine.location && (
+              <div className="bg-[#f0f0f2] rounded-xl p-4 flex items-center justify-between">
+                <span className="text-[15px] font-semibold text-foreground">Location</span>
+                <span className="text-[17px] font-bold text-foreground bg-white px-3 py-1 rounded-md shadow-sm">
+                  {wine.location}
+                </span>
               </div>
-            </div>
+            )}
           </div>
         </div>
       </div>
