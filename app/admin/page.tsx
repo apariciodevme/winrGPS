@@ -135,7 +135,8 @@ export default function AdminPage() {
 
             {/* Main Content */}
             <main className="max-w-5xl mx-auto px-4 mt-8">
-                <div className="bg-card border border-border/80 rounded-[14px] shadow-[0_1px_2px_rgba(0,0,0,0.02)] overflow-hidden">
+                {/* Desktop/Tablet Table View */}
+                <div className="hidden md:block bg-card border border-border/80 rounded-[14px] shadow-[0_1px_2px_rgba(0,0,0,0.02)] overflow-hidden">
                     <div className="overflow-x-auto">
                         <table className="w-full text-left border-collapse">
                             <thead>
@@ -222,6 +223,81 @@ export default function AdminPage() {
                         </table>
                     </div>
                 </div>
+
+                {/* Mobile Card View */}
+                <div className="md:hidden space-y-4">
+                    {isLoading ? (
+                        <div className="py-12 flex flex-col items-center gap-2 text-muted-foreground animate-pulse">
+                            <div className="w-8 h-8 rounded-full border-2 border-[#007aff] border-t-transparent animate-spin" />
+                            <span className="text-[15px] font-medium">Loading dataset...</span>
+                        </div>
+                    ) : filteredData.length === 0 ? (
+                        <div className="py-12 flex flex-col items-center gap-3 text-muted-foreground bg-card border border-border/80 rounded-[14px]">
+                            <Search className="w-10 h-10 opacity-20" />
+                            <span className="text-[16px]">No wines found matching "{searchQuery}"</span>
+                        </div>
+                    ) : (
+                        filteredData.map((wine, idx) => {
+                            const originalIndex = wine._originalIndex ?? idx;
+                            return (
+                                <div
+                                    key={wine._id || idx}
+                                    className="bg-card border border-border/80 rounded-[14px] shadow-[0_1px_2px_rgba(0,0,0,0.02)] p-4 flex flex-col gap-3 relative transition-all active:scale-[0.98] active:bg-[#f9f9fb]"
+                                >
+                                    {/* Edit / Delete overlay icons on mobile */}
+                                    <div className="absolute top-4 right-4 flex items-center gap-1 bg-background/80 backdrop-blur-sm rounded-full p-1 shadow-sm border border-border/40">
+                                        <button
+                                            onClick={() => setEditingItem(wine)}
+                                            className="w-9 h-9 flex items-center justify-center text-muted-foreground hover:text-[#007aff] active:bg-[#007aff]/10 rounded-full transition-colors"
+                                            title="Edit"
+                                        >
+                                            <Edit className="w-[17px] h-[17px]" />
+                                        </button>
+                                        <div className="w-[1px] h-5 bg-border/60" />
+                                        <button
+                                            onClick={() => handleDelete(originalIndex)}
+                                            disabled={isDeleting === originalIndex}
+                                            className="w-9 h-9 flex items-center justify-center text-muted-foreground hover:text-red-500 active:bg-red-500/10 rounded-full transition-colors disabled:opacity-50"
+                                            title="Delete"
+                                        >
+                                            {isDeleting === originalIndex ? (
+                                                <div className="w-[17px] h-[17px] rounded-full border-2 border-red-500 border-t-transparent animate-spin" />
+                                            ) : (
+                                                <Trash2 className="w-[17px] h-[17px]" />
+                                            )}
+                                        </button>
+                                    </div>
+
+                                    <div className="pr-20">
+                                        <h3 className="text-[17px] font-semibold text-foreground leading-[22px]">{wine.wine || "—"}</h3>
+                                        <p className="text-[14px] text-muted-foreground mt-0.5">{wine.producer || "—"}</p>
+                                    </div>
+
+                                    <div className="flex flex-wrap items-center gap-2 pt-1 border-t border-border/40">
+                                        <span className="inline-flex items-center justify-center px-2 py-1 rounded-md bg-[#f0f0f2] text-[13px] font-medium capitalize text-foreground/80">
+                                            {wine.category?.toLowerCase() || "—"}
+                                        </span>
+                                        {wine.year && (
+                                            <span className="text-[14px] font-medium text-foreground/90 bg-[#efeff0] px-2 py-1 rounded-md">
+                                                {wine.year}
+                                            </span>
+                                        )}
+                                        {wine.country && (
+                                            <span className="text-[14px] font-medium text-foreground/90 bg-[#efeff0] px-2 py-1 rounded-md">
+                                                {wine.country}
+                                            </span>
+                                        )}
+                                        {wine.location && (
+                                            <span className="inline-flex items-center justify-center px-2 py-1 rounded-md bg-white border border-[#e0e0e1] shadow-sm text-[13px] font-bold text-foreground">
+                                                {wine.location}
+                                            </span>
+                                        )}
+                                    </div>
+                                </div>
+                            );
+                        })
+                    )}
+                </div>
             </main>
 
             {/* Adding/Editing Modal */}
@@ -278,7 +354,7 @@ function WineEditorModal({
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/30 backdrop-blur-sm animate-in fade-in duration-200">
             <div className="absolute inset-0" onClick={onClose} />
 
-            <div className="relative w-full max-w-2xl bg-card rounded-[24px] shadow-2xl animate-in zoom-in-95 duration-200 max-h-[95vh] flex flex-col overflow-hidden">
+            <div className="relative w-full max-w-2xl bg-card rounded-t-[24px] sm:rounded-[24px] shadow-2xl animate-in slide-in-from-bottom-8 sm:zoom-in-95 duration-200 h-[90vh] sm:h-auto sm:max-h-[95vh] flex flex-col overflow-hidden self-end sm:self-center">
                 {/* Modal Header */}
                 <div className="flex items-center justify-between px-6 py-4 border-b border-border/60 bg-background/50 backdrop-blur-md">
                     <h2 className="text-[20px] font-semibold text-foreground tracking-tight">
@@ -386,11 +462,11 @@ function WineEditorModal({
                 </form>
 
                 {/* Modal Footer */}
-                <div className="px-6 py-4 bg-[#f9f9fb] border-t border-border/60 flex items-center justify-end gap-3">
+                <div className="px-6 py-4 bg-[#f9f9fb] border-t border-border/60 flex flex-col-reverse sm:flex-row items-center justify-end gap-3">
                     <button
                         type="button"
                         onClick={onClose}
-                        className="px-4 py-2 text-[15px] font-medium text-muted-foreground hover:text-foreground transition-colors"
+                        className="w-full sm:w-auto px-4 py-3 sm:py-2 text-[16px] sm:text-[15px] font-medium text-muted-foreground hover:text-foreground transition-colors"
                     >
                         Cancel
                     </button>
@@ -398,7 +474,7 @@ function WineEditorModal({
                         type="submit"
                         form="wine-editor-form"
                         disabled={isSubmitting}
-                        className="bg-[#007aff] text-white hover:bg-[#0062cc] disabled:bg-[#007aff]/50 px-5 py-2 rounded-[8px] font-medium text-[15px] transition-colors flex items-center gap-2 shadow-sm"
+                        className="w-full sm:w-auto bg-[#007aff] text-white hover:bg-[#0062cc] disabled:bg-[#007aff]/50 px-5 py-3 sm:py-2 rounded-[10px] sm:rounded-[8px] font-semibold sm:font-medium text-[16px] sm:text-[15px] transition-colors flex items-center justify-center gap-2 shadow-sm"
                     >
                         {isSubmitting ? (
                             <>
