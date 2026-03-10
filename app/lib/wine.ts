@@ -1,4 +1,4 @@
-import wineDataRaw from '../../data/LatestData.json';
+import { supabase } from './supabase';
 
 export type WineType = 'sparkling' | 'white' | 'red' | 'sweet' | 'rose';
 
@@ -13,12 +13,20 @@ export interface Wine {
     location?: string;
 }
 
-export function getAllWines(): Wine[] {
-    const raw = wineDataRaw as any[];
+export async function getAllWines(): Promise<Wine[]> {
+    const { data: raw, error } = await supabase
+        .from('wines')
+        .select('*')
+        .order('created_at', { ascending: false });
 
-    return raw.map((item, index) => ({
-        id: `wine-${index + 1}`,
-        type: item.category.toLowerCase() as WineType,
+    if (error || !raw) {
+        console.error('Error fetching wines:', error);
+        return [];
+    }
+
+    return raw.map((item: any) => ({
+        id: item.id,
+        type: (item.category || 'white').toLowerCase() as WineType,
         producer: item.producer || '',
         name: item.wine || '',
         vintage: item.year || '',

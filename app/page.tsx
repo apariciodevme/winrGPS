@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { Search, ChevronRight, X } from "lucide-react";
 import { getAllWines, Wine, WineType } from "./lib/wine";
 
@@ -9,7 +9,17 @@ export default function Home() {
   const [selectedWine, setSelectedWine] = useState<Wine | null>(null);
   const [selectedCountry, setSelectedCountry] = useState<string>("All");
 
-  const wines = useMemo(() => getAllWines(), []);
+  const [wines, setWines] = useState<Wine[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    async function load() {
+      const data = await getAllWines();
+      setWines(data);
+      setIsLoading(false);
+    }
+    load();
+  }, []);
 
   const countries = useMemo(
     () => ["All", ...Array.from(new Set(wines.map((w) => w.country).filter(Boolean))).sort()],
@@ -110,7 +120,12 @@ export default function Home() {
 
       {/* Main Content */}
       <main className="max-w-2xl mx-auto px-4 mt-8">
-        {searchQuery.trim() ? (
+        {isLoading ? (
+          <div className="flex flex-col items-center justify-center py-20 text-muted-foreground animate-pulse">
+            <div className="w-8 h-8 rounded-full border-2 border-[#007aff] border-t-transparent animate-spin mb-4" />
+            <p className="text-[17px] font-medium">Loading wine cellar...</p>
+          </div>
+        ) : searchQuery.trim() ? (
           <div className="space-y-4">
             <h2 className="text-[13px] font-semibold text-muted-foreground uppercase tracking-wider mb-2 px-1">
               Top Hits
