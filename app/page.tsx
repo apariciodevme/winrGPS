@@ -77,13 +77,13 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground pb-24 font-sans selection:bg-foreground selection:text-background">
       {/* Header */}
-      <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border/60 px-4 pt-12 pb-4">
-        <div className="max-w-2xl mx-auto space-y-4">
+      <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border/60 px-4 pt-10 sm:pt-12 pb-3 sm:pb-4">
+        <div className="max-w-2xl mx-auto space-y-3 sm:space-y-4">
           <div className="flex items-end justify-between px-1">
-            <h1 className="text-[34px] leading-tight font-semibold tracking-tight">
+            <h1 className="text-[28px] sm:text-[34px] leading-tight font-semibold tracking-tight">
               Wine Map
             </h1>
-            <div className="text-[15px] font-medium text-muted-foreground pb-1">
+            <div className="text-[14px] sm:text-[15px] font-medium text-muted-foreground pb-1">
               {filteredWines.length} bottles
             </div>
           </div>
@@ -177,20 +177,20 @@ function WineCard({ wine, onClick }: { wine: Wine; onClick: () => void }) {
   return (
     <div
       onClick={onClick}
-      className="px-5 py-4 bg-card rounded-[14px] border border-border/80 shadow-[0_1px_2px_rgba(0,0,0,0.02)] hover:bg-[#f9f9fb] transition-colors active:bg-[#f0f0f2] active:scale-[0.99] cursor-pointer"
+      className="px-4 sm:px-5 py-3.5 sm:py-4 bg-card rounded-[14px] border border-border/80 shadow-[0_1px_2px_rgba(0,0,0,0.02)] hover:bg-[#f9f9fb] transition-colors active:bg-[#f0f0f2] active:scale-[0.99] cursor-pointer"
     >
-      <div className="flex justify-between items-start gap-4">
+      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 sm:gap-4">
         <div className="space-y-0.5 flex-1">
-          <h3 className="text-[17px] font-medium leading-[22px] text-foreground">
+          <h3 className="text-[16px] sm:text-[17px] font-medium leading-[20px] sm:leading-[22px] text-foreground">
             {wine.name}
           </h3>
           <div className="flex flex-col gap-0.5 pt-0.5">
             {wine.producer && (
-              <p className="text-[15px] font-normal text-muted-foreground">
+              <p className="text-[14px] sm:text-[15px] font-normal text-muted-foreground line-clamp-1">
                 {wine.producer}
               </p>
             )}
-            <div className="flex flex-wrap items-center gap-x-1.5 text-[14px] text-muted-foreground">
+            <div className="flex flex-wrap items-center gap-x-1.5 text-[13px] sm:text-[14px] text-muted-foreground">
               {wine.country && <span>{wine.country}</span>}
               {wine.country && wine.vintage && <span>&middot;</span>}
               {wine.vintage && <span>{wine.vintage}</span>}
@@ -198,8 +198,8 @@ function WineCard({ wine, onClick }: { wine: Wine; onClick: () => void }) {
           </div>
         </div>
         {wine.location && (
-          <div className="shrink-0 pt-0.5">
-            <span className="inline-flex items-center justify-center px-2 py-1.5 rounded-md bg-[#efeff0] text-[13px] font-medium text-foreground/80">
+          <div className="shrink-0 pt-0.5 self-start sm:self-auto">
+            <span className="inline-flex items-center justify-center px-2 py-1 sm:px-2 sm:py-1.5 rounded-md bg-[#efeff0] text-[12px] sm:text-[13px] font-medium text-foreground/80">
               {wine.location}
             </span>
           </div>
@@ -211,30 +211,34 @@ function WineCard({ wine, onClick }: { wine: Wine; onClick: () => void }) {
 
 function WineModal({ wine, onClose }: { wine: Wine; onClose: () => void }) {
   return (
-    <div className="fixed inset-0 z-100 flex items-end sm:items-center justify-center p-4 pb-0 sm:pb-4 sm:p-6 bg-black/20 backdrop-blur-sm animate-in fade-in duration-200">
+    <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center sm:p-6 bg-black/20 backdrop-blur-sm animate-in fade-in duration-200">
       {/* Backdrop for click-outside */}
       <div className="absolute inset-0" onClick={onClose} />
 
       {/* Modal Content */}
-      <div className="relative w-full max-w-lg bg-card rounded-t-[24px] sm:rounded-[24px] shadow-2xl animate-in slide-in-from-bottom-8 sm:slide-in-from-bottom-4 duration-300 max-h-[90vh] overflow-y-auto">
-        <div className="sticky top-0 right-0 p-4 flex justify-end z-10">
+      <div className="relative w-full max-w-lg bg-card rounded-t-[24px] sm:rounded-b-[24px] shadow-2xl animate-in slide-in-from-bottom-full sm:slide-in-from-bottom-4 sm:zoom-in-95 duration-300 max-h-[90vh] flex flex-col overflow-hidden bottom-0 pb-safe">
+        {/* Header with sticky close button */}
+        <div className="sticky top-0 right-0 p-4 pb-2 sm:pb-4 flex justify-center sm:justify-end z-10 bg-card/90 backdrop-blur bg-fade-to-b">
+          {/* Mobile Handle */}
+          <div className="w-12 h-1.5 bg-border/80 rounded-full sm:hidden absolute top-3" />
+
           <button
             onClick={onClose}
-            className="w-8 h-8 flex items-center justify-center bg-[#f0f0f2] hover:bg-[#e0e0e1] active:bg-[#d1d1d6] text-muted-foreground rounded-full transition-colors"
+            className="w-8 h-8 flex items-center justify-center bg-[#f0f0f2] hover:bg-[#e0e0e1] active:bg-[#d1d1d6] text-muted-foreground rounded-full transition-colors ml-auto mt-2 sm:mt-0"
           >
             <X className="w-5 h-5" />
           </button>
         </div>
 
-        <div className="px-6 pb-8 -mt-6">
+        <div className="px-5 sm:px-6 pb-8 overflow-y-auto">
           <div className="space-y-6">
             <div>
               {wine.producer && (
-                <p className="text-[15px] font-semibold text-muted-foreground uppercase tracking-widest mb-1.5">
+                <p className="text-[14px] sm:text-[15px] font-semibold text-muted-foreground uppercase tracking-widest mb-1.5">
                   {wine.producer}
                 </p>
               )}
-              <h2 className="text-[28px] font-bold leading-tight text-foreground tracking-tight">
+              <h2 className="text-[24px] sm:text-[28px] font-bold leading-tight text-foreground tracking-tight">
                 {wine.name}
               </h2>
             </div>
